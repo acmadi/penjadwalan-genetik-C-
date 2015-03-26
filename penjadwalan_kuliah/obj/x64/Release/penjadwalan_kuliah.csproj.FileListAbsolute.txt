@@ -1,0 +1,81 @@
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csproj.ResolveComReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmBuildJadwal.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmDateTime.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmDosen.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmMain.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmMataKuliah.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmRuang.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmPengampu.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Properties.Resources.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csproj.GenerateResource.Cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\config.ini
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\INIFileParser.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Data.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Drawing.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Windows.Forms.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Xml.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\INIFileParser.xml
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Office.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Microsoft.Office.Interop.Excel.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Microsoft.Vbe.Interop.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csprojResolveAssemblyReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csproj.ResolveComReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\config.ini
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\INIFileParser.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Data.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Drawing.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Windows.Forms.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Xml.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\INIFileParser.xml
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Office.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Microsoft.Office.Interop.Excel.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Microsoft.Vbe.Interop.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csprojResolveAssemblyReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmBuildJadwal.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmDateTime.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmDosen.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmMain.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmMataKuliah.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmRuang.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmPengampu.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Properties.Resources.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csproj.GenerateResource.Cache
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csproj.ResolveComReference.cache
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.exe
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.pdb
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\config.ini
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\penjadwalan_kuliah.exe
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\penjadwalan_kuliah.pdb
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\INIFileParser.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Data.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Drawing.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Windows.Forms.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\System.Xml.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\INIFileParser.xml
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Office.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Microsoft.Office.Interop.Excel.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\bin\x64\Release\Microsoft.Vbe.Interop.dll
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csprojResolveAssemblyReference.cache
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmBuildJadwal.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmDateTime.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmDosen.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmMain.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmMataKuliah.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmRuang.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Form.FrmPengampu.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan.Properties.Resources.resources
+F:\Skripsi\_OLD\SKRIPSI_SYAIFUL (Penjadwalan Genetik in CSharp)\_APP_penjadwalan\penjadwalan_kuliah\obj\x64\Release\penjadwalan_kuliah.csproj.GenerateResource.Cache

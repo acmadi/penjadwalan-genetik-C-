@@ -1,0 +1,45 @@
+A:\penjadwalan_bin\penjadwalan_kuliah.exe
+A:\penjadwalan_bin\penjadwalan_kuliah.pdb
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Release\ResolveAssemblyReference.cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Release\WindowsFormsApplication1.frmMain.resources
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Release\penjadwalan_kuliah.csproj.GenerateResource.Cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Release\penjadwalan_kuliah.exe
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Release\penjadwalan_kuliah.pdb
+A:\bin_penjadwalan\penjadwalan_kuliah.exe
+A:\bin_penjadwalan\penjadwalan_kuliah.pdb
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Release\ResolveAssemblyReference.cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Release\WindowsFormsApplication1.frmMain.resources
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Release\penjadwalan_kuliah.csproj.GenerateResource.Cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Release\penjadwalan_kuliah.exe.licenses
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Release\penjadwalan_kuliah.exe
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Release\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan_kuliah.csproj.ResolveComReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\ResolveAssemblyReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmBuildJadwal.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmDateTime.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmDosen.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmMain.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmMataKuliah.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmRuang.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Form.FrmPengampu.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan.Properties.Resources.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan_kuliah.csproj.GenerateResource.Cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\config.ini
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Release\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\MySql.Data.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\System.Core.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\System.Data.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\System.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\System.Drawing.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\System.Windows.Forms.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\System.Xml.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\INIFileParser.xml
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\Office.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\Microsoft.Office.Interop.Excel.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\Microsoft.Vbe.Interop.dll

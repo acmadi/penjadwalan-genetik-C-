@@ -1,0 +1,1251 @@
+===========================[22:33:12.687 PM] => Ambil Data....
+Jumlah MataKuliah: 183
+Jumlah Jam: 12
+Jumlah Hari: 6
+Jumlah Ruang: 12
+===========================[22:33:12.692 PM] => Ambil Nilai Parameter....
+Populasi: 2
+Crossover: 0.7
+Mutasi: 0.4
+
+[22:33:12.692 PM] => Individu Ke-1 #MK,JAM,HARI,RUANG
+Kromosom 1 = 1,10,1,3
+Kromosom 2 = 2,7,3,1
+Kromosom 3 = 3,6,1,6
+Kromosom 4 = 4,2,2,8
+Kromosom 5 = 5,2,1,3
+Kromosom 6 = 6,9,5,6
+Kromosom 7 = 7,5,4,7
+Kromosom 8 = 8,3,2,1
+Kromosom 9 = 9,1,4,6
+Kromosom 10 = 10,3,6,4
+Kromosom 11 = 11,9,2,4
+Kromosom 12 = 12,1,5,2
+Kromosom 13 = 13,2,6,8
+Kromosom 14 = 14,7,6,5
+Kromosom 15 = 15,10,5,3
+Kromosom 16 = 16,6,4,2
+Kromosom 17 = 17,7,2,7
+Kromosom 18 = 18,8,3,2
+Kromosom 19 = 19,9,4,12
+Kromosom 20 = 20,3,4,11
+Kromosom 21 = 21,5,2,9
+Kromosom 22 = 22,3,2,9
+Kromosom 23 = 23,5,1,10
+Kromosom 24 = 24,2,4,12
+Kromosom 25 = 25,9,5,11
+Kromosom 26 = 26,3,2,11
+Kromosom 27 = 27,7,4,12
+Kromosom 28 = 28,6,4,11
+Kromosom 29 = 29,6,1,12
+Kromosom 30 = 30,3,2,9
+Kromosom 31 = 31,4,6,4
+Kromosom 32 = 32,2,2,6
+Kromosom 33 = 33,4,5,3
+Kromosom 34 = 34,3,1,5
+Kromosom 35 = 35,10,4,5
+Kromosom 36 = 36,1,6,6
+Kromosom 37 = 37,7,4,3
+Kromosom 38 = 38,4,4,1
+Kromosom 39 = 39,9,6,6
+Kromosom 40 = 40,6,5,2
+Kromosom 41 = 41,4,2,8
+Kromosom 42 = 42,2,5,6
+Kromosom 43 = 43,4,5,4
+Kromosom 44 = 44,1,6,4
+Kromosom 45 = 45,2,3,4
+Kromosom 46 = 46,5,5,1
+Kromosom 47 = 47,2,3,2
+Kromosom 48 = 48,1,5,5
+Kromosom 49 = 49,8,6,3
+Kromosom 50 = 50,4,3,3
+Kromosom 51 = 52,9,6,1
+Kromosom 52 = 53,2,6,7
+Kromosom 53 = 54,7,5,6
+Kromosom 54 = 55,9,5,2
+Kromosom 55 = 56,4,4,6
+Kromosom 56 = 57,10,1,1
+Kromosom 57 = 58,7,2,2
+Kromosom 58 = 59,8,3,2
+Kromosom 59 = 60,11,2,5
+Kromosom 60 = 61,5,3,7
+Kromosom 61 = 62,5,6,3
+Kromosom 62 = 63,2,1,1
+Kromosom 63 = 64,4,1,6
+Kromosom 64 = 65,7,5,1
+Kromosom 65 = 66,3,2,6
+Kromosom 66 = 67,1,5,2
+Kromosom 67 = 68,10,6,7
+Kromosom 68 = 69,3,5,1
+Kromosom 69 = 70,1,2,5
+Kromosom 70 = 71,10,1,5
+Kromosom 71 = 72,3,2,3
+Kromosom 72 = 73,11,3,7
+Kromosom 73 = 74,10,2,10
+Kromosom 74 = 75,7,3,9
+Kromosom 75 = 76,5,6,11
+Kromosom 76 = 80,3,3,9
+Kromosom 77 = 81,5,6,10
+Kromosom 78 = 82,5,4,10
+Kromosom 79 = 83,1,2,9
+Kromosom 80 = 84,2,1,12
+Kromosom 81 = 85,6,4,12
+Kromosom 82 = 86,1,3,10
+Kromosom 83 = 87,8,3,12
+Kromosom 84 = 88,10,1,11
+Kromosom 85 = 89,8,1,10
+Kromosom 86 = 90,7,5,12
+Kromosom 87 = 91,6,6,11
+Kromosom 88 = 92,5,3,2
+Kromosom 89 = 93,2,5,6
+Kromosom 90 = 94,10,6,3
+Kromosom 91 = 95,8,5,2
+Kromosom 92 = 96,6,2,8
+Kromosom 93 = 97,3,3,5
+Kromosom 94 = 98,1,4,1
+Kromosom 95 = 99,4,4,7
+Kromosom 96 = 100,10,5,4
+Kromosom 97 = 101,1,2,4
+Kromosom 98 = 102,4,4,2
+Kromosom 99 = 103,3,1,1
+Kromosom 100 = 104,7,6,5
+Kromosom 101 = 105,8,6,4
+Kromosom 102 = 106,6,2,3
+Kromosom 103 = 107,5,2,8
+Kromosom 104 = 108,5,3,4
+Kromosom 105 = 109,4,3,3
+Kromosom 106 = 110,7,1,7
+Kromosom 107 = 111,4,2,1
+Kromosom 108 = 112,4,5,5
+Kromosom 109 = 113,9,3,2
+Kromosom 110 = 114,10,2,1
+Kromosom 111 = 115,9,4,4
+Kromosom 112 = 116,11,3,11
+Kromosom 113 = 117,7,5,10
+Kromosom 114 = 118,7,3,10
+Kromosom 115 = 119,5,4,12
+Kromosom 116 = 120,11,6,9
+Kromosom 117 = 121,9,4,12
+Kromosom 118 = 122,4,2,11
+Kromosom 119 = 123,7,3,9
+Kromosom 120 = 124,10,4,12
+Kromosom 121 = 125,2,3,12
+Kromosom 122 = 126,10,4,12
+Kromosom 123 = 127,11,3,9
+Kromosom 124 = 128,8,1,10
+Kromosom 125 = 129,6,5,12
+Kromosom 126 = 130,7,6,9
+Kromosom 127 = 131,8,6,10
+Kromosom 128 = 132,1,2,11
+Kromosom 129 = 133,1,4,10
+Kromosom 130 = 134,8,3,12
+Kromosom 131 = 135,6,5,9
+Kromosom 132 = 136,6,3,12
+Kromosom 133 = 137,6,4,9
+Kromosom 134 = 138,1,6,11
+Kromosom 135 = 139,1,1,11
+Kromosom 136 = 140,8,5,10
+Kromosom 137 = 141,11,6,11
+Kromosom 138 = 142,12,2,12
+Kromosom 139 = 143,5,1,10
+Kromosom 140 = 144,3,5,12
+Kromosom 141 = 145,7,2,9
+Kromosom 142 = 146,2,1,10
+Kromosom 143 = 147,3,6,10
+Kromosom 144 = 148,12,1,10
+Kromosom 145 = 149,1,4,12
+Kromosom 146 = 150,11,1,9
+Kromosom 147 = 151,3,3,12
+Kromosom 148 = 152,8,6,4
+Kromosom 149 = 153,5,4,5
+Kromosom 150 = 154,4,1,4
+Kromosom 151 = 155,6,2,7
+Kromosom 152 = 156,1,3,6
+Kromosom 153 = 157,6,6,1
+Kromosom 154 = 158,3,3,7
+Kromosom 155 = 159,2,6,8
+Kromosom 156 = 160,3,6,5
+Kromosom 157 = 161,9,4,8
+Kromosom 158 = 162,4,6,3
+Kromosom 159 = 163,3,5,4
+Kromosom 160 = 164,7,5,4
+Kromosom 161 = 165,9,6,7
+Kromosom 162 = 166,10,3,6
+Kromosom 163 = 167,6,6,2
+Kromosom 164 = 168,3,2,2
+Kromosom 165 = 169,1,1,1
+Kromosom 166 = 170,10,4,8
+Kromosom 167 = 171,5,2,7
+Kromosom 168 = 172,1,4,5
+Kromosom 169 = 173,5,2,3
+Kromosom 170 = 174,5,6,6
+Kromosom 171 = 175,4,6,2
+Kromosom 172 = 176,6,3,5
+Kromosom 173 = 177,1,2,5
+Kromosom 174 = 178,3,5,8
+Kromosom 175 = 179,4,4,2
+Kromosom 176 = 180,8,2,8
+Kromosom 177 = 181,4,2,1
+Kromosom 178 = 182,5,2,4
+Kromosom 179 = 183,8,5,3
+Kromosom 180 = 184,3,3,1
+Kromosom 181 = 185,5,1,1
+Kromosom 182 = 186,6,6,3
+Kromosom 183 = 187,1,3,5
+
+[22:33:12.693 PM] => Individu Ke-2 #MK,JAM,HARI,RUANG
+Kromosom 1 = 1,6,6,4
+Kromosom 2 = 2,5,2,5
+Kromosom 3 = 3,10,5,8
+Kromosom 4 = 4,5,5,1
+Kromosom 5 = 5,4,1,5
+Kromosom 6 = 6,7,6,7
+Kromosom 7 = 7,8,6,6
+Kromosom 8 = 8,2,5,7
+Kromosom 9 = 9,6,5,5
+Kromosom 10 = 10,9,5,6
+Kromosom 11 = 11,11,5,7
+Kromosom 12 = 12,5,5,4
+Kromosom 13 = 13,7,1,8
+Kromosom 14 = 14,10,5,1
+Kromosom 15 = 15,5,6,6
+Kromosom 16 = 16,1,1,8
+Kromosom 17 = 17,6,6,1
+Kromosom 18 = 18,6,3,5
+Kromosom 19 = 19,8,3,9
+Kromosom 20 = 20,7,6,10
+Kromosom 21 = 21,10,1,12
+Kromosom 22 = 22,3,3,9
+Kromosom 23 = 23,2,6,10
+Kromosom 24 = 24,2,6,12
+Kromosom 25 = 25,9,5,9
+Kromosom 26 = 26,7,5,12
+Kromosom 27 = 27,2,3,11
+Kromosom 28 = 28,7,2,12
+Kromosom 29 = 29,7,3,10
+Kromosom 30 = 30,3,4,10
+Kromosom 31 = 31,5,1,2
+Kromosom 32 = 32,6,6,6
+Kromosom 33 = 33,3,1,4
+Kromosom 34 = 34,7,6,1
+Kromosom 35 = 35,7,3,1
+Kromosom 36 = 36,3,5,6
+Kromosom 37 = 37,7,1,5
+Kromosom 38 = 38,1,3,4
+Kromosom 39 = 39,9,3,8
+Kromosom 40 = 40,11,4,1
+Kromosom 41 = 41,9,6,3
+Kromosom 42 = 42,11,5,7
+Kromosom 43 = 43,6,3,7
+Kromosom 44 = 44,4,3,5
+Kromosom 45 = 45,6,4,5
+Kromosom 46 = 46,7,1,7
+Kromosom 47 = 47,9,3,6
+Kromosom 48 = 48,7,4,5
+Kromosom 49 = 49,8,2,5
+Kromosom 50 = 50,8,5,5
+Kromosom 51 = 52,8,2,5
+Kromosom 52 = 53,4,5,7
+Kromosom 53 = 54,8,5,6
+Kromosom 54 = 55,3,5,3
+Kromosom 55 = 56,10,2,6
+Kromosom 56 = 57,1,3,8
+Kromosom 57 = 58,10,1,3
+Kromosom 58 = 59,2,1,3
+Kromosom 59 = 60,5,2,4
+Kromosom 60 = 61,10,1,4
+Kromosom 61 = 62,3,6,6
+Kromosom 62 = 63,3,4,2
+Kromosom 63 = 64,1,2,7
+Kromosom 64 = 65,8,5,3
+Kromosom 65 = 66,2,4,6
+Kromosom 66 = 67,5,5,3
+Kromosom 67 = 68,10,5,7
+Kromosom 68 = 69,8,6,5
+Kromosom 69 = 70,3,4,2
+Kromosom 70 = 71,3,6,5
+Kromosom 71 = 72,6,6,5
+Kromosom 72 = 73,2,6,7
+Kromosom 73 = 74,7,4,12
+Kromosom 74 = 75,5,6,9
+Kromosom 75 = 76,2,1,10
+Kromosom 76 = 80,1,6,11
+Kromosom 77 = 81,6,6,10
+Kromosom 78 = 82,1,6,10
+Kromosom 79 = 83,7,4,12
+Kromosom 80 = 84,1,6,12
+Kromosom 81 = 85,1,6,10
+Kromosom 82 = 86,3,2,12
+Kromosom 83 = 87,8,6,11
+Kromosom 84 = 88,9,5,9
+Kromosom 85 = 89,6,3,12
+Kromosom 86 = 90,6,4,12
+Kromosom 87 = 91,4,2,11
+Kromosom 88 = 92,7,4,8
+Kromosom 89 = 93,3,3,1
+Kromosom 90 = 94,3,3,4
+Kromosom 91 = 95,11,4,6
+Kromosom 92 = 96,11,3,1
+Kromosom 93 = 97,10,6,7
+Kromosom 94 = 98,5,2,1
+Kromosom 95 = 99,11,5,2
+Kromosom 96 = 100,3,4,4
+Kromosom 97 = 101,6,1,1
+Kromosom 98 = 102,1,5,7
+Kromosom 99 = 103,3,3,2
+Kromosom 100 = 104,5,1,7
+Kromosom 101 = 105,9,4,5
+Kromosom 102 = 106,2,6,2
+Kromosom 103 = 107,6,4,1
+Kromosom 104 = 108,8,5,6
+Kromosom 105 = 109,1,6,8
+Kromosom 106 = 110,7,5,8
+Kromosom 107 = 111,8,1,7
+Kromosom 108 = 112,6,5,3
+Kromosom 109 = 113,5,6,8
+Kromosom 110 = 114,9,5,8
+Kromosom 111 = 115,9,3,8
+Kromosom 112 = 116,11,4,11
+Kromosom 113 = 117,6,5,12
+Kromosom 114 = 118,1,4,12
+Kromosom 115 = 119,5,5,10
+Kromosom 116 = 120,5,6,12
+Kromosom 117 = 121,10,4,11
+Kromosom 118 = 122,4,5,9
+Kromosom 119 = 123,1,2,12
+Kromosom 120 = 124,2,5,12
+Kromosom 121 = 125,3,5,12
+Kromosom 122 = 126,3,6,10
+Kromosom 123 = 127,8,1,9
+Kromosom 124 = 128,3,1,12
+Kromosom 125 = 129,1,5,10
+Kromosom 126 = 130,11,1,9
+Kromosom 127 = 131,1,1,12
+Kromosom 128 = 132,1,1,9
+Kromosom 129 = 133,2,4,11
+Kromosom 130 = 134,10,6,10
+Kromosom 131 = 135,9,3,12
+Kromosom 132 = 136,9,5,12
+Kromosom 133 = 137,1,2,11
+Kromosom 134 = 138,10,4,12
+Kromosom 135 = 139,7,4,10
+Kromosom 136 = 140,10,2,12
+Kromosom 137 = 141,8,1,9
+Kromosom 138 = 142,10,1,11
+Kromosom 139 = 143,1,2,11
+Kromosom 140 = 144,9,1,10
+Kromosom 141 = 145,8,5,9
+Kromosom 142 = 146,12,2,11
+Kromosom 143 = 147,12,1,12
+Kromosom 144 = 148,5,6,12
+Kromosom 145 = 149,4,1,10
+Kromosom 146 = 150,2,3,10
+Kromosom 147 = 151,10,3,9
+Kromosom 148 = 152,8,2,7
+Kromosom 149 = 153,2,1,3
+Kromosom 150 = 154,3,6,5
+Kromosom 151 = 155,3,2,2
+Kromosom 152 = 156,4,3,7
+Kromosom 153 = 157,6,5,3
+Kromosom 154 = 158,7,5,2
+Kromosom 155 = 159,2,2,1
+Kromosom 156 = 160,3,4,1
+Kromosom 157 = 161,4,6,7
+Kromosom 158 = 162,3,6,5
+Kromosom 159 = 163,3,6,5
+Kromosom 160 = 164,4,5,2
+Kromosom 161 = 165,5,5,2
+Kromosom 162 = 166,3,1,5
+Kromosom 163 = 167,8,6,6
+Kromosom 164 = 168,6,4,6
+Kromosom 165 = 169,1,1,5
+Kromosom 166 = 170,10,4,1
+Kromosom 167 = 171,8,6,5
+Kromosom 168 = 172,3,6,1
+Kromosom 169 = 173,9,1,4
+Kromosom 170 = 174,6,1,4
+Kromosom 171 = 175,4,2,8
+Kromosom 172 = 176,1,2,2
+Kromosom 173 = 177,10,6,1
+Kromosom 174 = 178,6,3,5
+Kromosom 175 = 179,4,5,3
+Kromosom 176 = 180,1,1,7
+Kromosom 177 = 181,1,2,3
+Kromosom 178 = 182,5,4,7
+Kromosom 179 = 183,8,1,6
+Kromosom 180 = 184,3,3,1
+Kromosom 181 = 185,3,2,8
+Kromosom 182 = 186,3,2,3
+Kromosom 183 = 187,10,1,7
+
+=========================== HITUNG FITNESS
+Rule:
+Hard Constraint:
+[1] => Bentrok ruang dan Waktu
+[1#A] => jam,hari dan ruangnya sama
+[1#B] => sks lebih dari 1 + hari dan ruang sama + jam kedua sama dengan jam pertama matakuliah yang lain
+[1#C] => sks lebih dari 2 + hari dan ruang sama + jam ketiga sama dengan jam pertama matakuliah yang lain
+[1#D] => sks lebih dari 3 + hari dan ruang sama + jam keempat sama dengan jam pertama matakuliah yang lain
+[2] => Bentrok sholat jumat
+[2#SKS = 1] => sks = 1
+[2#SKS = 2] => sks = 2
+[2#SKS = 3] => sks = 3
+[2#SKS = 4] => sks = 4
+[3] => Bentrok Dosen
+[3#SKS = 1] => sks = 1
+[3#SKS = 2] => sks = 2
+[3#SKS = 3] => sks = 3
+[3#SKS = 4] => sks = 4
+[4] => bentrok keinginan waktu dosen
+
+HardConstraint[5] => Individu ke 1 Kromosom 3[3,6,1,6][Dosen = 4]
+HardConstraint[1#B] => Individu ke-1 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 107 [111,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 177 [181,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 10 [10,4,2,7][SKS=2] == Kromosom 167 [171,5,2,7][SKS=3]
+HardConstraint[1#A] => Individu ke-1 Kromosom 14 [14,7,6,5] == Kromosom 100 [104,7,6,5]
+HardConstraint[5] => Individu ke 1 Kromosom 16[16,6,4,2][Dosen = 11]
+HardConstraint[1#A] => Individu ke-1 Kromosom 18 [18,8,3,2] == Kromosom 58 [59,8,3,2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 18 [18,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[1#A] => Individu ke-1 Kromosom 19 [19,1,1,11] == Kromosom 135 [139,1,1,11]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 21 [21,5,5,11]
+HardConstraint[1#A] => Individu ke-1 Kromosom 23 [23,5,1,10] == Kromosom 139 [143,5,1,10]
+HardConstraint[1#A] => Individu ke-1 Kromosom 25 [25,9,5,11] == Kromosom 83 [87,9,5,11]
+HardConstraint[1#B] => Individu ke-1 Kromosom 26 [26,3,2,11][SKS=2] == Kromosom 118 [122,4,2,11][SKS=2]
+HardConstraint[1#C] => Individu ke-1 Kromosom 27 [27,7,4,12][SKS=2] == Kromosom 117 [121,9,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-1 Kromosom 28 [28,6,4,11][SKS=2][DOSEN=40] == Kromosom 27 [27,7,4,12][SKS=3][DOSEN=40]
+HardConstraint[5] => Individu ke 1 Kromosom 28[28,6,4,11][Dosen = 40]
+HardConstraint[1#A] => Individu ke-1 Kromosom 29 [29,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 29 [29,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[3#B] => Individu ke-1 Kromosom 32 [32,2,2,6][SKS=2][DOSEN=33] == Kromosom 33 [33,3,2,5][SKS=2][DOSEN=33]
+HardConstraint[1#B] => Individu ke-1 Kromosom 32 [32,2,2,6][SKS=2] == Kromosom 65 [66,3,2,6][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 36[36,6,4,1][Dosen = 12]
+HardConstraint[2#SKS = 2] => Individu ke-1 Kromosom 40 [40,6,5,2]
+HardConstraint[5] => Individu ke 1 Kromosom 40[40,6,5,2][Dosen = 30]
+HardConstraint[1#A] => Individu ke-1 Kromosom 42 [42,2,5,6] == Kromosom 89 [93,2,5,6]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 43 [43,4,5,4]
+HardConstraint[1#C] => Individu ke-1 Kromosom 53 [54,7,5,6][SKS=2] == Kromosom 6 [6,9,5,6][SKS=2]
+HardConstraint[3#C] => Individu ke-1 Kromosom 53 [54,7,5,6][SKS=2][DOSEN=38] == Kromosom 54 [55,9,5,2][SKS=3][DOSEN=38]
+HardConstraint[1#A] => Individu ke-1 Kromosom 58 [59,8,3,2] == Kromosom 18 [18,8,3,2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 58 [59,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[1#C] => Individu ke-1 Kromosom 63 [64,4,1,6][SKS=2] == Kromosom 3 [3,6,1,6][SKS=2]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 64 [65,6,5,1]
+HardConstraint[5] => Individu ke 1 Kromosom 64[65,6,5,1][Dosen = 49]
+HardConstraint[1#B] => Individu ke-1 Kromosom 66 [67,1,5,2][SKS=2] == Kromosom 2 [2,2,5,2][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 69 [70,1,2,5] == Kromosom 173 [177,1,2,5]
+HardConstraint[1#B] => Individu ke-1 Kromosom 71 [72,3,2,3][SKS=2] == Kromosom 153 [157,4,2,3][SKS=3]
+HardConstraint[1#C] => Individu ke-1 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 30 [30,3,2,9][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 140 [144,2,2,9][SKS=1]
+HardConstraint[1#B] => Individu ke-1 Kromosom 81 [85,6,4,12][SKS=2] == Kromosom 27 [27,7,4,12][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 81[85,6,4,12][Dosen = 16]
+HardConstraint[1#A] => Individu ke-1 Kromosom 83 [87,9,5,11] == Kromosom 25 [25,9,5,11]
+HardConstraint[3#C] => Individu ke-1 Kromosom 85 [89,8,1,10][SKS=2][DOSEN=32] == Kromosom 84 [88,10,1,11][SKS=3][DOSEN=32]
+HardConstraint[1#A] => Individu ke-1 Kromosom 85 [89,8,1,10] == Kromosom 124 [128,8,1,10]
+HardConstraint[3#C] => Individu ke-1 Kromosom 86 [90,7,5,12][SKS=2][DOSEN=32] == Kromosom 83 [87,9,5,11][SKS=3][DOSEN=32]
+HardConstraint[5] => Individu ke 1 Kromosom 87[91,6,6,11][Dosen = 32]
+HardConstraint[1#A] => Individu ke-1 Kromosom 89 [93,2,5,6] == Kromosom 42 [42,2,5,6]
+HardConstraint[1#B] => Individu ke-1 Kromosom 90 [94,10,6,3][SKS=2] == Kromosom 97 [101,11,6,3][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 91 [95,8,5,2][SKS=2] == Kromosom 54 [55,9,5,2][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 92 [96,9,3,6][SKS=2] == Kromosom 162 [166,10,3,6][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 94 [98,1,4,1][SKS=2] == Kromosom 159 [163,2,4,1][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 95 [99,4,4,7][SKS=2] == Kromosom 7 [7,5,4,7][SKS=2]
+HardConstraint[3#A] => Individu ke-1 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[1#A] => Individu ke-1 Kromosom 100 [104,7,6,5] == Kromosom 14 [14,7,6,5]
+HardConstraint[3#C] => Individu ke-1 Kromosom 104 [108,5,3,4][SKS=2][DOSEN=41] == Kromosom 103 [107,7,3,8][SKS=3][DOSEN=41]
+HardConstraint[1#A] => Individu ke-1 Kromosom 105 [109,10,1,7] == Kromosom 166 [170,10,1,7]
+HardConstraint[1#B] => Individu ke-1 Kromosom 106 [110,7,1,7][SKS=2] == Kromosom 41 [41,8,1,7][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 107 [111,4,2,1] == Kromosom 177 [181,4,2,1]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 108 [112,4,5,5]
+HardConstraint[1#B] => Individu ke-1 Kromosom 111 [115,9,4,4][SKS=2] == Kromosom 171 [175,10,4,4][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 113 [117,7,5,10][SKS=2] == Kromosom 136 [140,8,5,10][SKS=1]
+HardConstraint[1#B] => Individu ke-1 Kromosom 115 [119,5,4,12][SKS=2] == Kromosom 81 [85,6,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 29 [29,10,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 120 [124,10,4,12][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 122 [126,10,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2][DOSEN=5] == Kromosom 122 [126,10,4,12][SKS=2][DOSEN=5]
+HardConstraint[1#B] => Individu ke-1 Kromosom 119 [123,2,4,11][SKS=2] == Kromosom 20 [20,3,4,11][SKS=3]
+HardConstraint[1#A] => Individu ke-1 Kromosom 120 [124,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 120 [124,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 122 [126,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 122 [126,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 124 [128,8,1,10] == Kromosom 85 [89,8,1,10]
+HardConstraint[1#B] => Individu ke-1 Kromosom 125 [129,6,5,12][SKS=2] == Kromosom 86 [90,7,5,12][SKS=3]
+HardConstraint[2#SKS = 2] => Individu ke-1 Kromosom 125 [129,6,5,12]
+HardConstraint[5] => Individu ke 1 Kromosom 125[129,6,5,12][Dosen = 1]
+HardConstraint[3#B] => Individu ke-1 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[3#B] => Individu ke-1 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[3#A] => Individu ke-1 Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 131 [135,6,5,9]
+HardConstraint[5] => Individu ke 1 Kromosom 131[135,6,5,9][Dosen = 12]
+HardConstraint[1#C] => Individu ke-1 Kromosom 132 [136,6,3,12][SKS=2] == Kromosom 130 [134,8,3,12][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 132[136,6,3,12][Dosen = 46]
+HardConstraint[5] => Individu ke 1 Kromosom 133[137,6,4,9][Dosen = 48]
+HardConstraint[3#C] => Individu ke-1 Kromosom 134 [138,1,6,11][SKS=2][DOSEN=48] == Kromosom 143 [147,3,6,10][SKS=1][DOSEN=48]
+HardConstraint[1#A] => Individu ke-1 Kromosom 135 [139,1,1,11] == Kromosom 19 [19,1,1,11]
+HardConstraint[5] => Individu ke 1 Kromosom 138[142,6,3,9][Dosen = 27]
+HardConstraint[1#A] => Individu ke-1 Kromosom 139 [143,5,1,10] == Kromosom 23 [23,5,1,10]
+HardConstraint[5] => Individu ke 1 Kromosom 147[151,6,1,9][Dosen = 48]
+HardConstraint[3#A] => Individu ke-1 Kromosom 148 [152,8,6,4][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[5] => Individu ke 1 Kromosom 151[155,6,2,7][Dosen = 1]
+HardConstraint[1#C] => Individu ke-1 Kromosom 152 [156,7,4,8][SKS=2] == Kromosom 157 [161,9,4,8][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 153 [157,4,2,3][SKS=2] == Kromosom 169 [173,5,2,3][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 154 [158,3,4,8][SKS=2] == Kromosom 96 [100,4,4,8][SKS=2]
+HardConstraint[3#B] => Individu ke-1 Kromosom 155 [159,8,4,7][SKS=2][DOSEN=47] == Kromosom 157 [161,9,4,8][SKS=2][DOSEN=47]
+HardConstraint[1#B] => Individu ke-1 Kromosom 158 [162,4,6,3][SKS=2] == Kromosom 61 [62,5,6,3][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 161 [165,9,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[5] => Individu ke 1 Kromosom 163[167,6,6,2][Dosen = 17]
+HardConstraint[3#C] => Individu ke-1 Kromosom 164 [168,3,2,2][SKS=2][DOSEN=17] == Kromosom 167 [171,5,2,7][SKS=3][DOSEN=17]
+HardConstraint[1#C] => Individu ke-1 Kromosom 165 [169,1,1,1][SKS=2] == Kromosom 99 [103,3,1,1][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 166 [170,10,1,7] == Kromosom 105 [109,10,1,7]
+HardConstraint[1#B] => Individu ke-1 Kromosom 167 [171,5,2,7][SKS=2] == Kromosom 151 [155,6,2,7][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 172[176,6,3,5][Dosen = 3]
+HardConstraint[1#C] => Individu ke-1 Kromosom 173 [177,1,2,5][SKS=2] == Kromosom 33 [33,3,2,5][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 173 [177,1,2,5] == Kromosom 69 [70,1,2,5]
+HardConstraint[1#C] => Individu ke-1 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 161 [165,9,6,7][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 177 [181,4,2,1] == Kromosom 107 [111,4,2,1]
+HardConstraint[3#B] => Individu ke-1 Kromosom 177 [181,4,2,1][SKS=2][DOSEN=35] == Kromosom 178 [182,5,2,4][SKS=3][DOSEN=35]
+HardConstraint[1#C] => Individu ke-1 Kromosom 179 [183,8,5,3][SKS=2] == Kromosom 15 [15,10,5,3][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 182[186,6,2,5][Dosen = 38]
+Penalty Individu ke-1 : 113 
+Fitness Individu ke-1 : 0.00877193 
+
+HardConstraint[5] => Individu ke 2 Kromosom 3[3,6,1,6][Dosen = 4]
+HardConstraint[1#B] => Individu ke-2 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 107 [111,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 177 [181,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 10 [10,4,2,7][SKS=2] == Kromosom 167 [171,5,2,7][SKS=3]
+HardConstraint[1#A] => Individu ke-2 Kromosom 14 [14,7,6,5] == Kromosom 100 [104,7,6,5]
+HardConstraint[5] => Individu ke 2 Kromosom 16[16,6,4,2][Dosen = 11]
+HardConstraint[1#A] => Individu ke-2 Kromosom 18 [18,8,3,2] == Kromosom 58 [59,8,3,2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 18 [18,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[3#C] => Individu ke-2 Kromosom 19 [19,1,4,10][SKS=2][DOSEN=20] == Kromosom 20 [20,3,4,11][SKS=3][DOSEN=20]
+HardConstraint[1#A] => Individu ke-2 Kromosom 19 [19,1,4,10] == Kromosom 129 [133,1,4,10]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 21 [21,5,5,11]
+HardConstraint[1#A] => Individu ke-2 Kromosom 23 [23,5,1,10] == Kromosom 139 [143,5,1,10]
+HardConstraint[1#A] => Individu ke-2 Kromosom 25 [25,9,5,11] == Kromosom 83 [87,9,5,11]
+HardConstraint[1#B] => Individu ke-2 Kromosom 26 [26,3,2,11][SKS=2] == Kromosom 118 [122,4,2,11][SKS=2]
+HardConstraint[1#C] => Individu ke-2 Kromosom 27 [27,7,4,12][SKS=2] == Kromosom 117 [121,9,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-2 Kromosom 28 [28,6,4,11][SKS=2][DOSEN=40] == Kromosom 27 [27,7,4,12][SKS=3][DOSEN=40]
+HardConstraint[5] => Individu ke 2 Kromosom 28[28,6,4,11][Dosen = 40]
+HardConstraint[1#A] => Individu ke-2 Kromosom 29 [29,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 29 [29,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[3#B] => Individu ke-2 Kromosom 32 [32,2,2,6][SKS=2][DOSEN=33] == Kromosom 33 [33,3,2,5][SKS=2][DOSEN=33]
+HardConstraint[1#B] => Individu ke-2 Kromosom 32 [32,2,2,6][SKS=2] == Kromosom 65 [66,3,2,6][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 36[36,6,4,1][Dosen = 12]
+HardConstraint[2#SKS = 2] => Individu ke-2 Kromosom 40 [40,6,5,2]
+HardConstraint[5] => Individu ke 2 Kromosom 40[40,6,5,2][Dosen = 30]
+HardConstraint[1#A] => Individu ke-2 Kromosom 42 [42,2,5,6] == Kromosom 89 [93,2,5,6]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 43 [43,4,5,4]
+HardConstraint[1#C] => Individu ke-2 Kromosom 53 [54,7,5,6][SKS=2] == Kromosom 6 [6,9,5,6][SKS=2]
+HardConstraint[3#C] => Individu ke-2 Kromosom 53 [54,7,5,6][SKS=2][DOSEN=38] == Kromosom 54 [55,9,5,2][SKS=3][DOSEN=38]
+HardConstraint[1#A] => Individu ke-2 Kromosom 58 [59,8,3,2] == Kromosom 18 [18,8,3,2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 58 [59,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[1#C] => Individu ke-2 Kromosom 63 [64,4,1,6][SKS=2] == Kromosom 3 [3,6,1,6][SKS=2]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 64 [65,6,5,1]
+HardConstraint[5] => Individu ke 2 Kromosom 64[65,6,5,1][Dosen = 49]
+HardConstraint[1#B] => Individu ke-2 Kromosom 66 [67,1,5,2][SKS=2] == Kromosom 2 [2,2,5,2][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 69 [70,1,2,5] == Kromosom 173 [177,1,2,5]
+HardConstraint[1#B] => Individu ke-2 Kromosom 71 [72,3,2,3][SKS=2] == Kromosom 153 [157,4,2,3][SKS=3]
+HardConstraint[1#C] => Individu ke-2 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 30 [30,3,2,9][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 140 [144,2,2,9][SKS=1]
+HardConstraint[1#B] => Individu ke-2 Kromosom 81 [85,6,4,12][SKS=2] == Kromosom 27 [27,7,4,12][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 81[85,6,4,12][Dosen = 16]
+HardConstraint[1#A] => Individu ke-2 Kromosom 83 [87,9,5,11] == Kromosom 25 [25,9,5,11]
+HardConstraint[3#C] => Individu ke-2 Kromosom 85 [89,8,1,10][SKS=2][DOSEN=32] == Kromosom 84 [88,10,1,11][SKS=3][DOSEN=32]
+HardConstraint[1#A] => Individu ke-2 Kromosom 85 [89,8,1,10] == Kromosom 124 [128,8,1,10]
+HardConstraint[3#C] => Individu ke-2 Kromosom 86 [90,7,5,12][SKS=2][DOSEN=32] == Kromosom 83 [87,9,5,11][SKS=3][DOSEN=32]
+HardConstraint[5] => Individu ke 2 Kromosom 87[91,6,6,11][Dosen = 32]
+HardConstraint[1#A] => Individu ke-2 Kromosom 89 [93,2,5,6] == Kromosom 42 [42,2,5,6]
+HardConstraint[1#B] => Individu ke-2 Kromosom 90 [94,10,6,3][SKS=2] == Kromosom 97 [101,11,6,3][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 91 [95,8,5,2][SKS=2] == Kromosom 54 [55,9,5,2][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 92 [96,9,3,6][SKS=2] == Kromosom 162 [166,10,3,6][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 94 [98,1,4,1][SKS=2] == Kromosom 159 [163,2,4,1][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 95 [99,4,4,7][SKS=2] == Kromosom 7 [7,5,4,7][SKS=2]
+HardConstraint[3#A] => Individu ke-2 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[1#A] => Individu ke-2 Kromosom 100 [104,7,6,5] == Kromosom 14 [14,7,6,5]
+HardConstraint[3#C] => Individu ke-2 Kromosom 104 [108,5,3,4][SKS=2][DOSEN=41] == Kromosom 103 [107,7,3,8][SKS=3][DOSEN=41]
+HardConstraint[1#A] => Individu ke-2 Kromosom 105 [109,10,1,7] == Kromosom 166 [170,10,1,7]
+HardConstraint[1#B] => Individu ke-2 Kromosom 106 [110,7,1,7][SKS=2] == Kromosom 41 [41,8,1,7][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 107 [111,4,2,1] == Kromosom 177 [181,4,2,1]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 108 [112,4,5,5]
+HardConstraint[1#B] => Individu ke-2 Kromosom 111 [115,9,4,4][SKS=2] == Kromosom 171 [175,10,4,4][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 113 [117,7,5,10][SKS=2] == Kromosom 136 [140,8,5,10][SKS=1]
+HardConstraint[1#B] => Individu ke-2 Kromosom 115 [119,5,4,12][SKS=2] == Kromosom 81 [85,6,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 29 [29,10,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 120 [124,10,4,12][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 122 [126,10,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2][DOSEN=5] == Kromosom 122 [126,10,4,12][SKS=2][DOSEN=5]
+HardConstraint[1#B] => Individu ke-2 Kromosom 119 [123,2,4,11][SKS=2] == Kromosom 20 [20,3,4,11][SKS=3]
+HardConstraint[1#A] => Individu ke-2 Kromosom 120 [124,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 120 [124,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 122 [126,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 122 [126,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 124 [128,8,1,10] == Kromosom 85 [89,8,1,10]
+HardConstraint[1#B] => Individu ke-2 Kromosom 125 [129,6,5,12][SKS=2] == Kromosom 86 [90,7,5,12][SKS=3]
+HardConstraint[2#SKS = 2] => Individu ke-2 Kromosom 125 [129,6,5,12]
+HardConstraint[5] => Individu ke 2 Kromosom 125[129,6,5,12][Dosen = 1]
+HardConstraint[3#B] => Individu ke-2 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[3#B] => Individu ke-2 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[3#A] => Individu ke-2 Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[1#A] => Individu ke-2 Kromosom 129 [133,1,4,10] == Kromosom 19 [19,1,4,10]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 131 [135,6,5,9]
+HardConstraint[5] => Individu ke 2 Kromosom 131[135,6,5,9][Dosen = 12]
+HardConstraint[1#C] => Individu ke-2 Kromosom 132 [136,6,3,12][SKS=2] == Kromosom 130 [134,8,3,12][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 132[136,6,3,12][Dosen = 46]
+HardConstraint[5] => Individu ke 2 Kromosom 133[137,6,4,9][Dosen = 48]
+HardConstraint[3#C] => Individu ke-2 Kromosom 134 [138,1,6,11][SKS=2][DOSEN=48] == Kromosom 143 [147,3,6,10][SKS=1][DOSEN=48]
+HardConstraint[5] => Individu ke 2 Kromosom 138[142,6,3,9][Dosen = 27]
+HardConstraint[1#A] => Individu ke-2 Kromosom 139 [143,5,1,10] == Kromosom 23 [23,5,1,10]
+HardConstraint[5] => Individu ke 2 Kromosom 147[151,6,1,9][Dosen = 48]
+HardConstraint[3#A] => Individu ke-2 Kromosom 148 [152,8,6,4][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[5] => Individu ke 2 Kromosom 151[155,6,2,7][Dosen = 1]
+HardConstraint[1#C] => Individu ke-2 Kromosom 152 [156,7,4,8][SKS=2] == Kromosom 157 [161,9,4,8][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 153 [157,4,2,3][SKS=2] == Kromosom 169 [173,5,2,3][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 154 [158,3,4,8][SKS=2] == Kromosom 96 [100,4,4,8][SKS=2]
+HardConstraint[3#B] => Individu ke-2 Kromosom 155 [159,8,4,7][SKS=2][DOSEN=47] == Kromosom 157 [161,9,4,8][SKS=2][DOSEN=47]
+HardConstraint[1#B] => Individu ke-2 Kromosom 158 [162,4,6,3][SKS=2] == Kromosom 61 [62,5,6,3][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 161 [165,9,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[5] => Individu ke 2 Kromosom 163[167,6,6,2][Dosen = 17]
+HardConstraint[3#C] => Individu ke-2 Kromosom 164 [168,3,2,2][SKS=2][DOSEN=17] == Kromosom 167 [171,5,2,7][SKS=3][DOSEN=17]
+HardConstraint[1#C] => Individu ke-2 Kromosom 165 [169,1,1,1][SKS=2] == Kromosom 99 [103,3,1,1][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 166 [170,10,1,7] == Kromosom 105 [109,10,1,7]
+HardConstraint[1#B] => Individu ke-2 Kromosom 167 [171,5,2,7][SKS=2] == Kromosom 151 [155,6,2,7][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 172[176,6,3,5][Dosen = 3]
+HardConstraint[1#C] => Individu ke-2 Kromosom 173 [177,1,2,5][SKS=2] == Kromosom 33 [33,3,2,5][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 173 [177,1,2,5] == Kromosom 69 [70,1,2,5]
+HardConstraint[1#C] => Individu ke-2 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 161 [165,9,6,7][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 177 [181,4,2,1] == Kromosom 107 [111,4,2,1]
+HardConstraint[3#B] => Individu ke-2 Kromosom 177 [181,4,2,1][SKS=2][DOSEN=35] == Kromosom 178 [182,5,2,4][SKS=3][DOSEN=35]
+HardConstraint[1#C] => Individu ke-2 Kromosom 179 [183,8,5,3][SKS=2] == Kromosom 15 [15,10,5,3][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 182[186,6,2,5][Dosen = 38]
+Penalty Individu ke-2 : 114 
+Fitness Individu ke-2 : 0.008695652 
+
+Review Penalty dan Fitness: (Best Fitness => Worst Fitness)
+Individu 1 :Fitness 0.00877193
+Individu 2 :Fitness 0.008695652
+
+Ranking individu 1 = 2
+Ranking individu 2 = 1
+[jumlah:3] 
+
+Proses Seleksi:
+Induk terpilih: Individu 1 , Individu 1 , 
+
+===========================PROSES CROSSOVER / PINDAH SILANG (CrossOver values = 0.7)
+Nilai Random = 0.671486722618102, maka CrossOver terjadi antara induk 1 dengan induk 2 pada titik 159 dan titik 168
+
+[22:33:22.082 PM] => Individu Baru Ke-1 #MK,JAM,HARI,RUANG
+Kromosom 1 = 1,10,1,3
+Kromosom 2 = 2,2,5,2
+Kromosom 3 = 3,6,1,6
+Kromosom 4 = 4,2,2,8
+Kromosom 5 = 5,2,5,1
+Kromosom 6 = 6,9,5,6
+Kromosom 7 = 7,5,4,7
+Kromosom 8 = 8,3,2,1
+Kromosom 9 = 9,1,4,6
+Kromosom 10 = 10,4,2,7
+Kromosom 11 = 11,9,2,6
+Kromosom 12 = 12,11,1,8
+Kromosom 13 = 13,2,6,8
+Kromosom 14 = 14,7,6,5
+Kromosom 15 = 15,10,5,3
+Kromosom 16 = 16,6,4,2
+Kromosom 17 = 17,10,5,4
+Kromosom 18 = 18,8,3,2
+Kromosom 19 = 19,1,1,11
+Kromosom 20 = 20,3,4,11
+Kromosom 21 = 21,5,5,11
+Kromosom 22 = 22,1,5,11
+Kromosom 23 = 23,5,1,10
+Kromosom 24 = 24,2,4,12
+Kromosom 25 = 25,9,5,11
+Kromosom 26 = 26,3,2,11
+Kromosom 27 = 27,7,4,12
+Kromosom 28 = 28,6,4,11
+Kromosom 29 = 29,10,4,12
+Kromosom 30 = 30,3,2,9
+Kromosom 31 = 31,4,6,4
+Kromosom 32 = 32,2,2,6
+Kromosom 33 = 33,3,2,5
+Kromosom 34 = 34,10,4,1
+Kromosom 35 = 35,10,4,5
+Kromosom 36 = 36,6,4,1
+Kromosom 37 = 37,11,4,8
+Kromosom 38 = 38,4,4,1
+Kromosom 39 = 39,9,6,6
+Kromosom 40 = 40,6,5,2
+Kromosom 41 = 41,8,1,7
+Kromosom 42 = 42,2,5,6
+Kromosom 43 = 43,4,5,4
+Kromosom 44 = 44,1,6,4
+Kromosom 45 = 45,2,3,4
+Kromosom 46 = 46,9,3,1
+Kromosom 47 = 47,4,4,3
+Kromosom 48 = 48,1,5,5
+Kromosom 49 = 49,10,3,4
+Kromosom 50 = 50,4,3,3
+Kromosom 51 = 52,9,6,1
+Kromosom 52 = 53,2,6,7
+Kromosom 53 = 54,7,5,6
+Kromosom 54 = 55,9,5,2
+Kromosom 55 = 56,7,6,8
+Kromosom 56 = 57,10,1,1
+Kromosom 57 = 58,7,2,2
+Kromosom 58 = 59,8,3,2
+Kromosom 59 = 60,11,2,5
+Kromosom 60 = 61,5,3,7
+Kromosom 61 = 62,5,6,3
+Kromosom 62 = 63,2,6,2
+Kromosom 63 = 64,4,1,6
+Kromosom 64 = 65,6,5,1
+Kromosom 65 = 66,3,2,6
+Kromosom 66 = 67,1,5,2
+Kromosom 67 = 68,10,6,7
+Kromosom 68 = 69,1,5,3
+Kromosom 69 = 70,1,2,5
+Kromosom 70 = 71,10,1,5
+Kromosom 71 = 72,3,2,3
+Kromosom 72 = 73,11,3,7
+Kromosom 73 = 74,10,2,10
+Kromosom 74 = 75,7,3,9
+Kromosom 75 = 76,7,2,12
+Kromosom 76 = 80,3,3,9
+Kromosom 77 = 81,5,6,10
+Kromosom 78 = 82,5,4,10
+Kromosom 79 = 83,1,2,9
+Kromosom 80 = 84,2,1,12
+Kromosom 81 = 85,6,4,12
+Kromosom 82 = 86,1,3,10
+Kromosom 83 = 87,9,5,11
+Kromosom 84 = 88,10,1,11
+Kromosom 85 = 89,8,1,10
+Kromosom 86 = 90,7,5,12
+Kromosom 87 = 91,6,6,11
+Kromosom 88 = 92,5,3,2
+Kromosom 89 = 93,2,5,6
+Kromosom 90 = 94,10,6,3
+Kromosom 91 = 95,8,5,2
+Kromosom 92 = 96,9,3,6
+Kromosom 93 = 97,3,3,5
+Kromosom 94 = 98,1,4,1
+Kromosom 95 = 99,4,4,7
+Kromosom 96 = 100,4,4,8
+Kromosom 97 = 101,11,6,3
+Kromosom 98 = 102,4,4,2
+Kromosom 99 = 103,3,1,1
+Kromosom 100 = 104,7,6,5
+Kromosom 101 = 105,5,1,5
+Kromosom 102 = 106,10,1,4
+Kromosom 103 = 107,7,3,8
+Kromosom 104 = 108,5,3,4
+Kromosom 105 = 109,10,1,7
+Kromosom 106 = 110,7,1,7
+Kromosom 107 = 111,4,2,1
+Kromosom 108 = 112,4,5,5
+Kromosom 109 = 113,9,3,2
+Kromosom 110 = 114,10,2,1
+Kromosom 111 = 115,9,4,4
+Kromosom 112 = 116,9,4,11
+Kromosom 113 = 117,7,5,10
+Kromosom 114 = 118,9,6,12
+Kromosom 115 = 119,5,4,12
+Kromosom 116 = 120,11,6,9
+Kromosom 117 = 121,9,4,12
+Kromosom 118 = 122,4,2,11
+Kromosom 119 = 123,2,4,11
+Kromosom 120 = 124,10,4,12
+Kromosom 121 = 125,10,5,9
+Kromosom 122 = 126,10,4,12
+Kromosom 123 = 127,11,3,9
+Kromosom 124 = 128,8,1,10
+Kromosom 125 = 129,6,5,12
+Kromosom 126 = 130,7,6,9
+Kromosom 127 = 131,8,6,10
+Kromosom 128 = 132,1,2,11
+Kromosom 129 = 133,1,4,10
+Kromosom 130 = 134,8,3,12
+Kromosom 131 = 135,6,5,9
+Kromosom 132 = 136,6,3,12
+Kromosom 133 = 137,6,4,9
+Kromosom 134 = 138,1,6,11
+Kromosom 135 = 139,1,1,11
+Kromosom 136 = 140,8,5,10
+Kromosom 137 = 141,1,2,10
+Kromosom 138 = 142,6,3,9
+Kromosom 139 = 143,5,1,10
+Kromosom 140 = 144,2,2,9
+Kromosom 141 = 145,7,2,9
+Kromosom 142 = 146,2,1,10
+Kromosom 143 = 147,3,6,10
+Kromosom 144 = 148,12,1,10
+Kromosom 145 = 149,1,4,12
+Kromosom 146 = 150,11,1,9
+Kromosom 147 = 151,6,1,9
+Kromosom 148 = 152,8,6,4
+Kromosom 149 = 153,5,4,5
+Kromosom 150 = 154,4,1,4
+Kromosom 151 = 155,6,2,7
+Kromosom 152 = 156,7,4,8
+Kromosom 153 = 157,4,2,3
+Kromosom 154 = 158,3,4,8
+Kromosom 155 = 159,8,4,7
+Kromosom 156 = 160,2,6,1
+Kromosom 157 = 161,9,4,8
+Kromosom 158 = 162,4,6,3
+Kromosom 159 = 163,2,4,1
+Kromosom 160 = 164,7,5,4
+Kromosom 161 = 165,9,6,7
+Kromosom 162 = 166,10,3,6
+Kromosom 163 = 167,6,6,2
+Kromosom 164 = 168,3,2,2
+Kromosom 165 = 169,1,1,1
+Kromosom 166 = 170,10,1,7
+Kromosom 167 = 171,5,2,7
+Kromosom 168 = 172,1,4,5
+Kromosom 169 = 173,5,2,3
+Kromosom 170 = 174,5,6,6
+Kromosom 171 = 175,10,4,4
+Kromosom 172 = 176,6,3,5
+Kromosom 173 = 177,1,2,5
+Kromosom 174 = 178,1,4,3
+Kromosom 175 = 179,8,6,7
+Kromosom 176 = 180,8,2,8
+Kromosom 177 = 181,4,2,1
+Kromosom 178 = 182,5,2,4
+Kromosom 179 = 183,8,5,3
+Kromosom 180 = 184,3,3,1
+Kromosom 181 = 185,5,1,1
+Kromosom 182 = 186,6,2,5
+Kromosom 183 = 187,1,3,5
+
+[22:33:22.085 PM] => Individu Baru Ke-2 #MK,JAM,HARI,RUANG
+Kromosom 1 = 1,10,1,3
+Kromosom 2 = 2,2,5,2
+Kromosom 3 = 3,6,1,6
+Kromosom 4 = 4,2,2,8
+Kromosom 5 = 5,2,5,1
+Kromosom 6 = 6,9,5,6
+Kromosom 7 = 7,5,4,7
+Kromosom 8 = 8,3,2,1
+Kromosom 9 = 9,1,4,6
+Kromosom 10 = 10,4,2,7
+Kromosom 11 = 11,9,2,6
+Kromosom 12 = 12,11,1,8
+Kromosom 13 = 13,2,6,8
+Kromosom 14 = 14,7,6,5
+Kromosom 15 = 15,10,5,3
+Kromosom 16 = 16,6,4,2
+Kromosom 17 = 17,10,5,4
+Kromosom 18 = 18,8,3,2
+Kromosom 19 = 19,1,1,11
+Kromosom 20 = 20,3,4,11
+Kromosom 21 = 21,5,5,11
+Kromosom 22 = 22,1,5,11
+Kromosom 23 = 23,5,1,10
+Kromosom 24 = 24,2,4,12
+Kromosom 25 = 25,9,5,11
+Kromosom 26 = 26,3,2,11
+Kromosom 27 = 27,7,4,12
+Kromosom 28 = 28,6,4,11
+Kromosom 29 = 29,10,4,12
+Kromosom 30 = 30,3,2,9
+Kromosom 31 = 31,4,6,4
+Kromosom 32 = 32,2,2,6
+Kromosom 33 = 33,3,2,5
+Kromosom 34 = 34,10,4,1
+Kromosom 35 = 35,10,4,5
+Kromosom 36 = 36,6,4,1
+Kromosom 37 = 37,11,4,8
+Kromosom 38 = 38,4,4,1
+Kromosom 39 = 39,9,6,6
+Kromosom 40 = 40,6,5,2
+Kromosom 41 = 41,8,1,7
+Kromosom 42 = 42,2,5,6
+Kromosom 43 = 43,4,5,4
+Kromosom 44 = 44,1,6,4
+Kromosom 45 = 45,2,3,4
+Kromosom 46 = 46,9,3,1
+Kromosom 47 = 47,4,4,3
+Kromosom 48 = 48,1,5,5
+Kromosom 49 = 49,10,3,4
+Kromosom 50 = 50,4,3,3
+Kromosom 51 = 52,9,6,1
+Kromosom 52 = 53,2,6,7
+Kromosom 53 = 54,7,5,6
+Kromosom 54 = 55,9,5,2
+Kromosom 55 = 56,7,6,8
+Kromosom 56 = 57,10,1,1
+Kromosom 57 = 58,7,2,2
+Kromosom 58 = 59,8,3,2
+Kromosom 59 = 60,11,2,5
+Kromosom 60 = 61,5,3,7
+Kromosom 61 = 62,5,6,3
+Kromosom 62 = 63,2,6,2
+Kromosom 63 = 64,4,1,6
+Kromosom 64 = 65,6,5,1
+Kromosom 65 = 66,3,2,6
+Kromosom 66 = 67,1,5,2
+Kromosom 67 = 68,10,6,7
+Kromosom 68 = 69,1,5,3
+Kromosom 69 = 70,1,2,5
+Kromosom 70 = 71,10,1,5
+Kromosom 71 = 72,3,2,3
+Kromosom 72 = 73,11,3,7
+Kromosom 73 = 74,10,2,10
+Kromosom 74 = 75,7,3,9
+Kromosom 75 = 76,7,2,12
+Kromosom 76 = 80,3,3,9
+Kromosom 77 = 81,5,6,10
+Kromosom 78 = 82,5,4,10
+Kromosom 79 = 83,1,2,9
+Kromosom 80 = 84,2,1,12
+Kromosom 81 = 85,6,4,12
+Kromosom 82 = 86,1,3,10
+Kromosom 83 = 87,9,5,11
+Kromosom 84 = 88,10,1,11
+Kromosom 85 = 89,8,1,10
+Kromosom 86 = 90,7,5,12
+Kromosom 87 = 91,6,6,11
+Kromosom 88 = 92,5,3,2
+Kromosom 89 = 93,2,5,6
+Kromosom 90 = 94,10,6,3
+Kromosom 91 = 95,8,5,2
+Kromosom 92 = 96,9,3,6
+Kromosom 93 = 97,3,3,5
+Kromosom 94 = 98,1,4,1
+Kromosom 95 = 99,4,4,7
+Kromosom 96 = 100,4,4,8
+Kromosom 97 = 101,11,6,3
+Kromosom 98 = 102,4,4,2
+Kromosom 99 = 103,3,1,1
+Kromosom 100 = 104,7,6,5
+Kromosom 101 = 105,5,1,5
+Kromosom 102 = 106,10,1,4
+Kromosom 103 = 107,7,3,8
+Kromosom 104 = 108,5,3,4
+Kromosom 105 = 109,10,1,7
+Kromosom 106 = 110,7,1,7
+Kromosom 107 = 111,4,2,1
+Kromosom 108 = 112,4,5,5
+Kromosom 109 = 113,9,3,2
+Kromosom 110 = 114,10,2,1
+Kromosom 111 = 115,9,4,4
+Kromosom 112 = 116,9,4,11
+Kromosom 113 = 117,7,5,10
+Kromosom 114 = 118,9,6,12
+Kromosom 115 = 119,5,4,12
+Kromosom 116 = 120,11,6,9
+Kromosom 117 = 121,9,4,12
+Kromosom 118 = 122,4,2,11
+Kromosom 119 = 123,2,4,11
+Kromosom 120 = 124,10,4,12
+Kromosom 121 = 125,10,5,9
+Kromosom 122 = 126,10,4,12
+Kromosom 123 = 127,11,3,9
+Kromosom 124 = 128,8,1,10
+Kromosom 125 = 129,6,5,12
+Kromosom 126 = 130,7,6,9
+Kromosom 127 = 131,8,6,10
+Kromosom 128 = 132,1,2,11
+Kromosom 129 = 133,1,4,10
+Kromosom 130 = 134,8,3,12
+Kromosom 131 = 135,6,5,9
+Kromosom 132 = 136,6,3,12
+Kromosom 133 = 137,6,4,9
+Kromosom 134 = 138,1,6,11
+Kromosom 135 = 139,1,1,11
+Kromosom 136 = 140,8,5,10
+Kromosom 137 = 141,1,2,10
+Kromosom 138 = 142,6,3,9
+Kromosom 139 = 143,5,1,10
+Kromosom 140 = 144,2,2,9
+Kromosom 141 = 145,7,2,9
+Kromosom 142 = 146,2,1,10
+Kromosom 143 = 147,3,6,10
+Kromosom 144 = 148,12,1,10
+Kromosom 145 = 149,1,4,12
+Kromosom 146 = 150,11,1,9
+Kromosom 147 = 151,6,1,9
+Kromosom 148 = 152,8,6,4
+Kromosom 149 = 153,5,4,5
+Kromosom 150 = 154,4,1,4
+Kromosom 151 = 155,6,2,7
+Kromosom 152 = 156,7,4,8
+Kromosom 153 = 157,4,2,3
+Kromosom 154 = 158,3,4,8
+Kromosom 155 = 159,8,4,7
+Kromosom 156 = 160,2,6,1
+Kromosom 157 = 161,9,4,8
+Kromosom 158 = 162,4,6,3
+Kromosom 159 = 163,2,4,1
+Kromosom 160 = 164,7,5,4
+Kromosom 161 = 165,9,6,7
+Kromosom 162 = 166,10,3,6
+Kromosom 163 = 167,6,6,2
+Kromosom 164 = 168,3,2,2
+Kromosom 165 = 169,1,1,1
+Kromosom 166 = 170,10,1,7
+Kromosom 167 = 171,5,2,7
+Kromosom 168 = 172,1,4,5
+Kromosom 169 = 173,5,2,3
+Kromosom 170 = 174,5,6,6
+Kromosom 171 = 175,10,4,4
+Kromosom 172 = 176,6,3,5
+Kromosom 173 = 177,1,2,5
+Kromosom 174 = 178,1,4,3
+Kromosom 175 = 179,8,6,7
+Kromosom 176 = 180,8,2,8
+Kromosom 177 = 181,4,2,1
+Kromosom 178 = 182,5,2,4
+Kromosom 179 = 183,8,5,3
+Kromosom 180 = 184,3,3,1
+Kromosom 181 = 185,5,1,1
+Kromosom 182 = 186,6,2,5
+Kromosom 183 = 187,1,3,5
+===========================PROSES MUTASI / PENGGANTIAN KOMPONEN PENJADWALAN SECARA ACAK:
+
+HardConstraint[5] => Individu ke 1 Kromosom 3[3,6,1,6][Dosen = 4]
+HardConstraint[1#B] => Individu ke-1 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 107 [111,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 177 [181,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 10 [10,4,2,7][SKS=2] == Kromosom 167 [171,5,2,7][SKS=3]
+HardConstraint[1#A] => Individu ke-1 Kromosom 14 [14,7,6,5] == Kromosom 100 [104,7,6,5]
+HardConstraint[5] => Individu ke 1 Kromosom 16[16,6,4,2][Dosen = 11]
+HardConstraint[1#A] => Individu ke-1 Kromosom 18 [18,8,3,2] == Kromosom 58 [59,8,3,2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 18 [18,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[1#A] => Individu ke-1 Kromosom 19 [19,1,1,11] == Kromosom 135 [139,1,1,11]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 21 [21,5,5,11]
+HardConstraint[1#A] => Individu ke-1 Kromosom 23 [23,5,1,10] == Kromosom 139 [143,5,1,10]
+HardConstraint[1#A] => Individu ke-1 Kromosom 25 [25,9,5,11] == Kromosom 83 [87,9,5,11]
+HardConstraint[1#B] => Individu ke-1 Kromosom 26 [26,3,2,11][SKS=2] == Kromosom 118 [122,4,2,11][SKS=2]
+HardConstraint[1#C] => Individu ke-1 Kromosom 27 [27,7,4,12][SKS=2] == Kromosom 117 [121,9,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-1 Kromosom 28 [28,6,4,11][SKS=2][DOSEN=40] == Kromosom 27 [27,7,4,12][SKS=3][DOSEN=40]
+HardConstraint[5] => Individu ke 1 Kromosom 28[28,6,4,11][Dosen = 40]
+HardConstraint[1#A] => Individu ke-1 Kromosom 29 [29,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 29 [29,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[3#B] => Individu ke-1 Kromosom 32 [32,2,2,6][SKS=2][DOSEN=33] == Kromosom 33 [33,3,2,5][SKS=2][DOSEN=33]
+HardConstraint[1#B] => Individu ke-1 Kromosom 32 [32,2,2,6][SKS=2] == Kromosom 65 [66,3,2,6][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 36[36,6,4,1][Dosen = 12]
+HardConstraint[2#SKS = 2] => Individu ke-1 Kromosom 40 [40,6,5,2]
+HardConstraint[5] => Individu ke 1 Kromosom 40[40,6,5,2][Dosen = 30]
+HardConstraint[1#A] => Individu ke-1 Kromosom 42 [42,2,5,6] == Kromosom 89 [93,2,5,6]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 43 [43,4,5,4]
+HardConstraint[1#C] => Individu ke-1 Kromosom 53 [54,7,5,6][SKS=2] == Kromosom 6 [6,9,5,6][SKS=2]
+HardConstraint[3#C] => Individu ke-1 Kromosom 53 [54,7,5,6][SKS=2][DOSEN=38] == Kromosom 54 [55,9,5,2][SKS=3][DOSEN=38]
+HardConstraint[1#A] => Individu ke-1 Kromosom 58 [59,8,3,2] == Kromosom 18 [18,8,3,2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 58 [59,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[1#C] => Individu ke-1 Kromosom 63 [64,4,1,6][SKS=2] == Kromosom 3 [3,6,1,6][SKS=2]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 64 [65,6,5,1]
+HardConstraint[5] => Individu ke 1 Kromosom 64[65,6,5,1][Dosen = 49]
+HardConstraint[1#B] => Individu ke-1 Kromosom 66 [67,1,5,2][SKS=2] == Kromosom 2 [2,2,5,2][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 69 [70,1,2,5] == Kromosom 173 [177,1,2,5]
+HardConstraint[1#B] => Individu ke-1 Kromosom 71 [72,3,2,3][SKS=2] == Kromosom 153 [157,4,2,3][SKS=3]
+HardConstraint[1#C] => Individu ke-1 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 30 [30,3,2,9][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 140 [144,2,2,9][SKS=1]
+HardConstraint[1#B] => Individu ke-1 Kromosom 81 [85,6,4,12][SKS=2] == Kromosom 27 [27,7,4,12][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 81[85,6,4,12][Dosen = 16]
+HardConstraint[1#A] => Individu ke-1 Kromosom 83 [87,9,5,11] == Kromosom 25 [25,9,5,11]
+HardConstraint[3#C] => Individu ke-1 Kromosom 85 [89,8,1,10][SKS=2][DOSEN=32] == Kromosom 84 [88,10,1,11][SKS=3][DOSEN=32]
+HardConstraint[1#A] => Individu ke-1 Kromosom 85 [89,8,1,10] == Kromosom 124 [128,8,1,10]
+HardConstraint[3#C] => Individu ke-1 Kromosom 86 [90,7,5,12][SKS=2][DOSEN=32] == Kromosom 83 [87,9,5,11][SKS=3][DOSEN=32]
+HardConstraint[5] => Individu ke 1 Kromosom 87[91,6,6,11][Dosen = 32]
+HardConstraint[1#A] => Individu ke-1 Kromosom 89 [93,2,5,6] == Kromosom 42 [42,2,5,6]
+HardConstraint[1#B] => Individu ke-1 Kromosom 90 [94,10,6,3][SKS=2] == Kromosom 97 [101,11,6,3][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 91 [95,8,5,2][SKS=2] == Kromosom 54 [55,9,5,2][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 92 [96,9,3,6][SKS=2] == Kromosom 162 [166,10,3,6][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 94 [98,1,4,1][SKS=2] == Kromosom 159 [163,2,4,1][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 95 [99,4,4,7][SKS=2] == Kromosom 7 [7,5,4,7][SKS=2]
+HardConstraint[3#A] => Individu ke-1 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-1 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[1#A] => Individu ke-1 Kromosom 100 [104,7,6,5] == Kromosom 14 [14,7,6,5]
+HardConstraint[3#C] => Individu ke-1 Kromosom 104 [108,5,3,4][SKS=2][DOSEN=41] == Kromosom 103 [107,7,3,8][SKS=3][DOSEN=41]
+HardConstraint[1#A] => Individu ke-1 Kromosom 105 [109,10,1,7] == Kromosom 166 [170,10,1,7]
+HardConstraint[1#B] => Individu ke-1 Kromosom 106 [110,7,1,7][SKS=2] == Kromosom 41 [41,8,1,7][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 107 [111,4,2,1] == Kromosom 177 [181,4,2,1]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 108 [112,4,5,5]
+HardConstraint[1#B] => Individu ke-1 Kromosom 111 [115,9,4,4][SKS=2] == Kromosom 171 [175,10,4,4][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 113 [117,7,5,10][SKS=2] == Kromosom 136 [140,8,5,10][SKS=1]
+HardConstraint[1#B] => Individu ke-1 Kromosom 115 [119,5,4,12][SKS=2] == Kromosom 81 [85,6,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 29 [29,10,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 120 [124,10,4,12][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 122 [126,10,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-1 Kromosom 117 [121,9,4,12][SKS=2][DOSEN=5] == Kromosom 122 [126,10,4,12][SKS=2][DOSEN=5]
+HardConstraint[1#B] => Individu ke-1 Kromosom 119 [123,2,4,11][SKS=2] == Kromosom 20 [20,3,4,11][SKS=3]
+HardConstraint[1#A] => Individu ke-1 Kromosom 120 [124,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 120 [124,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 122 [126,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 122 [126,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-1 Kromosom 124 [128,8,1,10] == Kromosom 85 [89,8,1,10]
+HardConstraint[1#B] => Individu ke-1 Kromosom 125 [129,6,5,12][SKS=2] == Kromosom 86 [90,7,5,12][SKS=3]
+HardConstraint[2#SKS = 2] => Individu ke-1 Kromosom 125 [129,6,5,12]
+HardConstraint[5] => Individu ke 1 Kromosom 125[129,6,5,12][Dosen = 1]
+HardConstraint[3#B] => Individu ke-1 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[3#B] => Individu ke-1 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[3#A] => Individu ke-1 Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[2#SKS = 3] => Individu ke-1 Kromosom 131 [135,6,5,9]
+HardConstraint[5] => Individu ke 1 Kromosom 131[135,6,5,9][Dosen = 12]
+HardConstraint[1#C] => Individu ke-1 Kromosom 132 [136,6,3,12][SKS=2] == Kromosom 130 [134,8,3,12][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 132[136,6,3,12][Dosen = 46]
+HardConstraint[5] => Individu ke 1 Kromosom 133[137,6,4,9][Dosen = 48]
+HardConstraint[3#C] => Individu ke-1 Kromosom 134 [138,1,6,11][SKS=2][DOSEN=48] == Kromosom 143 [147,3,6,10][SKS=1][DOSEN=48]
+HardConstraint[1#A] => Individu ke-1 Kromosom 135 [139,1,1,11] == Kromosom 19 [19,1,1,11]
+HardConstraint[5] => Individu ke 1 Kromosom 138[142,6,3,9][Dosen = 27]
+HardConstraint[1#A] => Individu ke-1 Kromosom 139 [143,5,1,10] == Kromosom 23 [23,5,1,10]
+HardConstraint[5] => Individu ke 1 Kromosom 147[151,6,1,9][Dosen = 48]
+HardConstraint[3#A] => Individu ke-1 Kromosom 148 [152,8,6,4][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[5] => Individu ke 1 Kromosom 151[155,6,2,7][Dosen = 1]
+HardConstraint[1#C] => Individu ke-1 Kromosom 152 [156,7,4,8][SKS=2] == Kromosom 157 [161,9,4,8][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 153 [157,4,2,3][SKS=2] == Kromosom 169 [173,5,2,3][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 154 [158,3,4,8][SKS=2] == Kromosom 96 [100,4,4,8][SKS=2]
+HardConstraint[3#B] => Individu ke-1 Kromosom 155 [159,8,4,7][SKS=2][DOSEN=47] == Kromosom 157 [161,9,4,8][SKS=2][DOSEN=47]
+HardConstraint[1#B] => Individu ke-1 Kromosom 158 [162,4,6,3][SKS=2] == Kromosom 61 [62,5,6,3][SKS=3]
+HardConstraint[1#B] => Individu ke-1 Kromosom 161 [165,9,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[5] => Individu ke 1 Kromosom 163[167,6,6,2][Dosen = 17]
+HardConstraint[3#C] => Individu ke-1 Kromosom 164 [168,3,2,2][SKS=2][DOSEN=17] == Kromosom 167 [171,5,2,7][SKS=3][DOSEN=17]
+HardConstraint[1#C] => Individu ke-1 Kromosom 165 [169,1,1,1][SKS=2] == Kromosom 99 [103,3,1,1][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 166 [170,10,1,7] == Kromosom 105 [109,10,1,7]
+HardConstraint[1#B] => Individu ke-1 Kromosom 167 [171,5,2,7][SKS=2] == Kromosom 151 [155,6,2,7][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 172[176,6,3,5][Dosen = 3]
+HardConstraint[1#C] => Individu ke-1 Kromosom 173 [177,1,2,5][SKS=2] == Kromosom 33 [33,3,2,5][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 173 [177,1,2,5] == Kromosom 69 [70,1,2,5]
+HardConstraint[1#C] => Individu ke-1 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[1#B] => Individu ke-1 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 161 [165,9,6,7][SKS=2]
+HardConstraint[1#A] => Individu ke-1 Kromosom 177 [181,4,2,1] == Kromosom 107 [111,4,2,1]
+HardConstraint[3#B] => Individu ke-1 Kromosom 177 [181,4,2,1][SKS=2][DOSEN=35] == Kromosom 178 [182,5,2,4][SKS=3][DOSEN=35]
+HardConstraint[1#C] => Individu ke-1 Kromosom 179 [183,8,5,3][SKS=2] == Kromosom 15 [15,10,5,3][SKS=3]
+HardConstraint[5] => Individu ke 1 Kromosom 182[186,6,2,5][Dosen = 38]
+Penalty Individu ke-1 : 113 
+Individu 1: Nilai Random = 0.796860327383904, maka TIDAK terjadi mutasi (Fitness = 0.00877193)
+
+
+HardConstraint[5] => Individu ke 2 Kromosom 3[3,6,1,6][Dosen = 4]
+HardConstraint[1#B] => Individu ke-2 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 107 [111,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 8 [8,3,2,1][SKS=2] == Kromosom 177 [181,4,2,1][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 10 [10,4,2,7][SKS=2] == Kromosom 167 [171,5,2,7][SKS=3]
+HardConstraint[1#A] => Individu ke-2 Kromosom 14 [14,7,6,5] == Kromosom 100 [104,7,6,5]
+HardConstraint[5] => Individu ke 2 Kromosom 16[16,6,4,2][Dosen = 11]
+HardConstraint[1#A] => Individu ke-2 Kromosom 18 [18,8,3,2] == Kromosom 58 [59,8,3,2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 18 [18,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[1#A] => Individu ke-2 Kromosom 19 [19,1,1,11] == Kromosom 135 [139,1,1,11]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 21 [21,5,5,11]
+HardConstraint[1#A] => Individu ke-2 Kromosom 23 [23,5,1,10] == Kromosom 139 [143,5,1,10]
+HardConstraint[1#A] => Individu ke-2 Kromosom 25 [25,9,5,11] == Kromosom 83 [87,9,5,11]
+HardConstraint[1#B] => Individu ke-2 Kromosom 26 [26,3,2,11][SKS=2] == Kromosom 118 [122,4,2,11][SKS=2]
+HardConstraint[1#C] => Individu ke-2 Kromosom 27 [27,7,4,12][SKS=2] == Kromosom 117 [121,9,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-2 Kromosom 28 [28,6,4,11][SKS=2][DOSEN=40] == Kromosom 27 [27,7,4,12][SKS=3][DOSEN=40]
+HardConstraint[5] => Individu ke 2 Kromosom 28[28,6,4,11][Dosen = 40]
+HardConstraint[1#A] => Individu ke-2 Kromosom 29 [29,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 29 [29,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[3#B] => Individu ke-2 Kromosom 32 [32,2,2,6][SKS=2][DOSEN=33] == Kromosom 33 [33,3,2,5][SKS=2][DOSEN=33]
+HardConstraint[1#B] => Individu ke-2 Kromosom 32 [32,2,2,6][SKS=2] == Kromosom 65 [66,3,2,6][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 36[36,6,4,1][Dosen = 12]
+HardConstraint[2#SKS = 2] => Individu ke-2 Kromosom 40 [40,6,5,2]
+HardConstraint[5] => Individu ke 2 Kromosom 40[40,6,5,2][Dosen = 30]
+HardConstraint[1#A] => Individu ke-2 Kromosom 42 [42,2,5,6] == Kromosom 89 [93,2,5,6]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 43 [43,4,5,4]
+HardConstraint[1#C] => Individu ke-2 Kromosom 53 [54,7,5,6][SKS=2] == Kromosom 6 [6,9,5,6][SKS=2]
+HardConstraint[3#C] => Individu ke-2 Kromosom 53 [54,7,5,6][SKS=2][DOSEN=38] == Kromosom 54 [55,9,5,2][SKS=3][DOSEN=38]
+HardConstraint[1#A] => Individu ke-2 Kromosom 58 [59,8,3,2] == Kromosom 18 [18,8,3,2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 58 [59,8,3,2][SKS=2] == Kromosom 109 [113,9,3,2][SKS=3]
+HardConstraint[1#C] => Individu ke-2 Kromosom 63 [64,4,1,6][SKS=2] == Kromosom 3 [3,6,1,6][SKS=2]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 64 [65,6,5,1]
+HardConstraint[5] => Individu ke 2 Kromosom 64[65,6,5,1][Dosen = 49]
+HardConstraint[1#B] => Individu ke-2 Kromosom 66 [67,1,5,2][SKS=2] == Kromosom 2 [2,2,5,2][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 69 [70,1,2,5] == Kromosom 173 [177,1,2,5]
+HardConstraint[1#B] => Individu ke-2 Kromosom 71 [72,3,2,3][SKS=2] == Kromosom 153 [157,4,2,3][SKS=3]
+HardConstraint[1#C] => Individu ke-2 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 30 [30,3,2,9][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 79 [83,1,2,9][SKS=2] == Kromosom 140 [144,2,2,9][SKS=1]
+HardConstraint[1#B] => Individu ke-2 Kromosom 81 [85,6,4,12][SKS=2] == Kromosom 27 [27,7,4,12][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 81[85,6,4,12][Dosen = 16]
+HardConstraint[1#A] => Individu ke-2 Kromosom 83 [87,9,5,11] == Kromosom 25 [25,9,5,11]
+HardConstraint[3#C] => Individu ke-2 Kromosom 85 [89,8,1,10][SKS=2][DOSEN=32] == Kromosom 84 [88,10,1,11][SKS=3][DOSEN=32]
+HardConstraint[1#A] => Individu ke-2 Kromosom 85 [89,8,1,10] == Kromosom 124 [128,8,1,10]
+HardConstraint[3#C] => Individu ke-2 Kromosom 86 [90,7,5,12][SKS=2][DOSEN=32] == Kromosom 83 [87,9,5,11][SKS=3][DOSEN=32]
+HardConstraint[5] => Individu ke 2 Kromosom 87[91,6,6,11][Dosen = 32]
+HardConstraint[1#A] => Individu ke-2 Kromosom 89 [93,2,5,6] == Kromosom 42 [42,2,5,6]
+HardConstraint[1#B] => Individu ke-2 Kromosom 90 [94,10,6,3][SKS=2] == Kromosom 97 [101,11,6,3][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 91 [95,8,5,2][SKS=2] == Kromosom 54 [55,9,5,2][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 92 [96,9,3,6][SKS=2] == Kromosom 162 [166,10,3,6][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 94 [98,1,4,1][SKS=2] == Kromosom 159 [163,2,4,1][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 95 [99,4,4,7][SKS=2] == Kromosom 7 [7,5,4,7][SKS=2]
+HardConstraint[3#A] => Individu ke-2 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29] == Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 95 [99,4,4,7][SKS=2][DOSEN=29]
+HardConstraint[3#A] => Individu ke-2 Kromosom 98 [102,4,4,2][SKS=2][DOSEN=29] == Kromosom 96 [100,4,4,8][SKS=2][DOSEN=29]
+HardConstraint[1#A] => Individu ke-2 Kromosom 100 [104,7,6,5] == Kromosom 14 [14,7,6,5]
+HardConstraint[3#C] => Individu ke-2 Kromosom 104 [108,5,3,4][SKS=2][DOSEN=41] == Kromosom 103 [107,7,3,8][SKS=3][DOSEN=41]
+HardConstraint[1#A] => Individu ke-2 Kromosom 105 [109,10,1,7] == Kromosom 166 [170,10,1,7]
+HardConstraint[1#B] => Individu ke-2 Kromosom 106 [110,7,1,7][SKS=2] == Kromosom 41 [41,8,1,7][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 107 [111,4,2,1] == Kromosom 177 [181,4,2,1]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 108 [112,4,5,5]
+HardConstraint[1#B] => Individu ke-2 Kromosom 111 [115,9,4,4][SKS=2] == Kromosom 171 [175,10,4,4][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 113 [117,7,5,10][SKS=2] == Kromosom 136 [140,8,5,10][SKS=1]
+HardConstraint[1#B] => Individu ke-2 Kromosom 115 [119,5,4,12][SKS=2] == Kromosom 81 [85,6,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 29 [29,10,4,12][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 120 [124,10,4,12][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2] == Kromosom 122 [126,10,4,12][SKS=2]
+HardConstraint[3#B] => Individu ke-2 Kromosom 117 [121,9,4,12][SKS=2][DOSEN=5] == Kromosom 122 [126,10,4,12][SKS=2][DOSEN=5]
+HardConstraint[1#B] => Individu ke-2 Kromosom 119 [123,2,4,11][SKS=2] == Kromosom 20 [20,3,4,11][SKS=3]
+HardConstraint[1#A] => Individu ke-2 Kromosom 120 [124,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 120 [124,10,4,12] == Kromosom 122 [126,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 122 [126,10,4,12] == Kromosom 29 [29,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 122 [126,10,4,12] == Kromosom 120 [124,10,4,12]
+HardConstraint[1#A] => Individu ke-2 Kromosom 124 [128,8,1,10] == Kromosom 85 [89,8,1,10]
+HardConstraint[1#B] => Individu ke-2 Kromosom 125 [129,6,5,12][SKS=2] == Kromosom 86 [90,7,5,12][SKS=3]
+HardConstraint[2#SKS = 2] => Individu ke-2 Kromosom 125 [129,6,5,12]
+HardConstraint[5] => Individu ke 2 Kromosom 125[129,6,5,12][Dosen = 1]
+HardConstraint[3#B] => Individu ke-2 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[3#B] => Individu ke-2 Kromosom 126 [130,7,6,9][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[3#A] => Individu ke-2 Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1] == Kromosom 148 [152,8,6,4][SKS=3][DOSEN=1]
+HardConstraint[2#SKS = 3] => Individu ke-2 Kromosom 131 [135,6,5,9]
+HardConstraint[5] => Individu ke 2 Kromosom 131[135,6,5,9][Dosen = 12]
+HardConstraint[1#C] => Individu ke-2 Kromosom 132 [136,6,3,12][SKS=2] == Kromosom 130 [134,8,3,12][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 132[136,6,3,12][Dosen = 46]
+HardConstraint[5] => Individu ke 2 Kromosom 133[137,6,4,9][Dosen = 48]
+HardConstraint[3#C] => Individu ke-2 Kromosom 134 [138,1,6,11][SKS=2][DOSEN=48] == Kromosom 143 [147,3,6,10][SKS=1][DOSEN=48]
+HardConstraint[1#A] => Individu ke-2 Kromosom 135 [139,1,1,11] == Kromosom 19 [19,1,1,11]
+HardConstraint[5] => Individu ke 2 Kromosom 138[142,6,3,9][Dosen = 27]
+HardConstraint[1#A] => Individu ke-2 Kromosom 139 [143,5,1,10] == Kromosom 23 [23,5,1,10]
+HardConstraint[5] => Individu ke 2 Kromosom 147[151,6,1,9][Dosen = 48]
+HardConstraint[3#A] => Individu ke-2 Kromosom 148 [152,8,6,4][SKS=2][DOSEN=1] == Kromosom 127 [131,8,6,10][SKS=2][DOSEN=1]
+HardConstraint[5] => Individu ke 2 Kromosom 151[155,6,2,7][Dosen = 1]
+HardConstraint[1#C] => Individu ke-2 Kromosom 152 [156,7,4,8][SKS=2] == Kromosom 157 [161,9,4,8][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 153 [157,4,2,3][SKS=2] == Kromosom 169 [173,5,2,3][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 154 [158,3,4,8][SKS=2] == Kromosom 96 [100,4,4,8][SKS=2]
+HardConstraint[3#B] => Individu ke-2 Kromosom 155 [159,8,4,7][SKS=2][DOSEN=47] == Kromosom 157 [161,9,4,8][SKS=2][DOSEN=47]
+HardConstraint[1#B] => Individu ke-2 Kromosom 158 [162,4,6,3][SKS=2] == Kromosom 61 [62,5,6,3][SKS=3]
+HardConstraint[1#B] => Individu ke-2 Kromosom 161 [165,9,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[5] => Individu ke 2 Kromosom 163[167,6,6,2][Dosen = 17]
+HardConstraint[3#C] => Individu ke-2 Kromosom 164 [168,3,2,2][SKS=2][DOSEN=17] == Kromosom 167 [171,5,2,7][SKS=3][DOSEN=17]
+HardConstraint[1#C] => Individu ke-2 Kromosom 165 [169,1,1,1][SKS=2] == Kromosom 99 [103,3,1,1][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 166 [170,10,1,7] == Kromosom 105 [109,10,1,7]
+HardConstraint[1#B] => Individu ke-2 Kromosom 167 [171,5,2,7][SKS=2] == Kromosom 151 [155,6,2,7][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 172[176,6,3,5][Dosen = 3]
+HardConstraint[1#C] => Individu ke-2 Kromosom 173 [177,1,2,5][SKS=2] == Kromosom 33 [33,3,2,5][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 173 [177,1,2,5] == Kromosom 69 [70,1,2,5]
+HardConstraint[1#C] => Individu ke-2 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 67 [68,10,6,7][SKS=2]
+HardConstraint[1#B] => Individu ke-2 Kromosom 175 [179,8,6,7][SKS=2] == Kromosom 161 [165,9,6,7][SKS=2]
+HardConstraint[1#A] => Individu ke-2 Kromosom 177 [181,4,2,1] == Kromosom 107 [111,4,2,1]
+HardConstraint[3#B] => Individu ke-2 Kromosom 177 [181,4,2,1][SKS=2][DOSEN=35] == Kromosom 178 [182,5,2,4][SKS=3][DOSEN=35]
+HardConstraint[1#C] => Individu ke-2 Kromosom 179 [183,8,5,3][SKS=2] == Kromosom 15 [15,10,5,3][SKS=3]
+HardConstraint[5] => Individu ke 2 Kromosom 182[186,6,2,5][Dosen = 38]
+Penalty Individu ke-2 : 113 
+Individu 2: Nilai Random = 0.91981616519383, maka TIDAK terjadi mutasi (Fitness = 0.00877193)
+

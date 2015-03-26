@@ -1,0 +1,144 @@
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.exe
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.pdb
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Debug\ResolveAssemblyReference.cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Debug\WindowsFormsApplication1.frmMain.resources
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.csproj.GenerateResource.Cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.exe
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.pdb
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.exe.licenses
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.exe
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.pdb
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\bin\Debug\penjadwalan_kuliah.exe
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\bin\Debug\penjadwalan_kuliah.pdb
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\ResolveAssemblyReference.cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.csproj.GenerateResource.Cache
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.exe.licenses
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.frmMain.resources
+G:\desktop_development\SKRIPSI SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Properties.Resources.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.exe
+G:\Skripsi\SKRIPSI_SYAIFUL\_application_\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.pdb
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.exe
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.pdb
+A:\penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\penjadwalan_kuliah.exe
+A:\penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\penjadwalan_kuliah.pdb
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\ResolveAssemblyReference.cache
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Properties.Resources.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.csproj.GenerateResource.Cache
+A:\penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\MySql.Data.dll
+A:\penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\INIFileParser.dll
+A:\penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\INIFileParser.xml
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmBuildJadwal.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmDosen.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmMain.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmDateTime.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmRuang.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmMataKuliah.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmPengampu.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+A:\penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\config.ini
+A:\penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.csproj.ResolveComReference.cache
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.csproj.ResolveComReference.cache
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.exe
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.pdb
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\config.ini
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\penjadwalan_kuliah.exe
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\penjadwalan_kuliah.pdb
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\INIFileParser.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\MySql.Data.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\bin\Debug\INIFileParser.xml
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\ResolveAssemblyReference.cache
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmBuildJadwal.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmDateTime.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmDosen.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmMain.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmMataKuliah.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmRuang.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Form.FrmPengampu.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan.Properties.Resources.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\trunk\obj\Debug\penjadwalan_kuliah.csproj.GenerateResource.Cache
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.csproj.ResolveComReference.cache
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.exe
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.pdb
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\config.ini
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.exe
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.pdb
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\MySql.Data.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Core.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Data.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Drawing.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Windows.Forms.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Xml.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\INIFileParser.xml
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Office.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Microsoft.Office.Interop.Excel.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Microsoft.Vbe.Interop.dll
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\ResolveAssemblyReference.cache
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmBuildJadwal.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmDateTime.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmDosen.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmMain.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmMataKuliah.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmRuang.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmPengampu.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Properties.Resources.resources
+G:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.csproj.GenerateResource.Cache
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.csproj.ResolveComReference.cache
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.exe
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.pdb
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\config.ini
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.exe
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.pdb
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\MySql.Data.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Core.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Data.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Drawing.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Windows.Forms.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Xml.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\INIFileParser.xml
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Office.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\ResolveAssemblyReference.cache
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmBuildJadwal.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmDateTime.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmDosen.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmMain.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmMataKuliah.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmRuang.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmPengampu.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Properties.Resources.resources
+E:\Skripsi\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.csproj.GenerateResource.Cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.csproj.ResolveComReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\config.ini
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.exe
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\penjadwalan_kuliah.pdb
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\MySql.Data.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Core.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Data.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Drawing.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Windows.Forms.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\System.Xml.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\INIFileParser.xml
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Office.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\ResolveAssemblyReference.cache
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmBuildJadwal.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmDateTime.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmDosen.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmWaktuTidakBersedia.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmMain.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmMataKuliah.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmRuang.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Form.FrmPengampu.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan.Properties.Resources.resources
+E:\Skripsi\_OLD\SKRIPSI_SYAIFUL\_APP_penjadwalan\penjadwalan_kuliah\obj\Debug\penjadwalan_kuliah.csproj.GenerateResource.Cache

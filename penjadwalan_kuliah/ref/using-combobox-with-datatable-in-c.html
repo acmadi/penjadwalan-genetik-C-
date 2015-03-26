@@ -1,0 +1,1701 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html b:version="2" class="v2" dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:b="http://www.google.com/2005/gml/b" xmlns:data="http://www.google.com/2005/gml/data" xmlns:expr="http://www.google.com/2005/gml/expr"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<script async="" src="using-combobox-with-datatable-in-c_files/cbgapi.loaded_1"></script><script async="" src="using-combobox-with-datatable-in-c_files/cbgapi.loaded_0"></script><script type="text/javascript">(function() { var a=window,b="jstiming",d="tick";var e=function(c){this.t={};this.tick=function(c,p,h){h=void 0!=h?h:(new Date).getTime();this.t[c]=[h,p]};this[d]("start",null,c)},f=new e;a.jstiming={Timer:e,load:f};if(a.performance&&a.performance.timing){var g=a.performance.timing,j=a[b].load,k=g.navigationStart,l=g.responseStart;0<k&&l>=k&&(j[d]("_wtsrt",void 0,k),j[d]("wtsrt_","_wtsrt",l),j[d]("tbsd_","wtsrt_"))}
+try{var m=null;a.chrome&&a.chrome.csi&&(m=Math.floor(a.chrome.csi().pageT),j&&0<k&&(j[d]("_tbnd",void 0,a.chrome.csi().startE),j[d]("tbnd_","_tbnd",k)));null==m&&a.gtbExternal&&(m=a.gtbExternal.pageT());null==m&&a.external&&(m=a.external.pageT,j&&0<k&&(j[d]("_tbnd",void 0,a.external.startE),j[d]("tbnd_","_tbnd",k)));m&&(a[b].pt=m)}catch(n){};a.tickAboveFold=function(c){var i=0;if(c.offsetParent){do i+=c.offsetTop;while(c=c.offsetParent)}c=i;750>=c&&a[b].load[d]("aft")};var q=!1;function r(){q||(q=!0,a[b].load[d]("firstScrollTime"))}a.addEventListener?a.addEventListener("scroll",r,!1):a.attachEvent("onscroll",r);
+ })();</script>
+<meta content="true" name="MSSmartTagsPreventParsing">
+<meta content="blogger" name="generator">
+<link href="http://www.itdevspace.com/favicon.ico" rel="icon" type="image/x-icon">
+<link href="http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html" rel="canonical">
+<link rel="alternate" type="application/atom+xml" title="ITDevSpace - Development Tips &amp; Tricks - Atom" href="http://www.itdevspace.com/feeds/posts/default">
+<link rel="alternate" type="application/rss+xml" title="ITDevSpace - Development Tips &amp; Tricks - RSS" href="http://www.itdevspace.com/feeds/posts/default?alt=rss">
+<link rel="service.post" type="application/atom+xml" title="ITDevSpace - Development Tips &amp; Tricks - Atom" href="http://www.blogger.com/feeds/1009430530424913741/posts/default">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=1009430530424913741">
+<link rel="alternate" type="application/atom+xml" title="ITDevSpace - Development Tips &amp; Tricks - Atom" href="http://www.itdevspace.com/feeds/560961869641736734/comments/default">
+<!--[if IE]><script type="text/javascript" src="//www.blogger.com/static/v1/jsbin/3596828972-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<meta content="HFesmpAxw2e2gpuIvuz3CJZH77RtBGNhUUKgjyEQfoQ=" name="verify-v1">
+<meta content="Solutions to common programming problems in Java, C#, .Net, Python, SQL, Excel/VBA and other languages" name="Description">
+<title>ITDevSpace - Development Tips &amp; Tricks: Using ComboBox with DataTable in C#</title>
+<link type="text/css" rel="stylesheet" href="using-combobox-with-datatable-in-c_files/4219271310-widget_css_2_bundle.css">
+<link type="text/css" rel="stylesheet" href="using-combobox-with-datatable-in-c_files/authorization.css">
+<style id="page-skin-1" type="text/css"><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Stretch Denim
+Designer: Darren Delaye
+URL:      www.DarrenDelaye.com
+Date:     11 Jul 2006
+-----------------------------------------------
+*/
+/* Variable definitions
+====================
+<Variable name="bgColor" description="Page Background Color"
+type="color" default="#efefef">
+<Variable name="textColor" description="Text Color"
+type="color" default="#333333">
+<Variable name="linkColor" description="Link Color"
+type="color" default="#336699">
+<Variable name="headerBgColor" description="Page Header Background Color"
+type="color" default="#336699">
+<Variable name="headerTextColor" description="Page Header Text Color"
+type="color" default="#ffffff">
+<Variable name="headerCornersColor" description="Page Header Corners Color"
+type="color" default="#528bc5">
+<Variable name="mainBgColor" description="Main Background Color"
+type="color" default="#ffffff">
+<Variable name="borderColor" description="Border Color"
+type="color" default="#cccccc">
+<Variable name="dateHeaderColor" description="Date Header Color"
+type="color" default="#999999">
+<Variable name="sidebarTitleBgColor" description="Sidebar Title Background Color"
+type="color" default="#ffd595">
+<Variable name="sidebarTitleTextColor" description="Sidebar Title Text Color"
+type="color" default="#333333">
+<Variable name="bodyFont" description="Text Font"
+type="font" default="normal normal 100% Verdana, Arial, Sans-serif;">
+<Variable name="headerFont" description="Page Header Font"
+type="font" default="normal normal 210% Verdana, Arial, Sans-serif;">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+body {
+background: #efefef;
+margin: 0;
+padding: 0px;
+font: x-small Verdana, Arial;
+text-align: center;
+color: #333333;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
+a:link {
+color: #336699;
+}
+a:visited {
+color: #336699;
+}
+a img {
+border-width: 0;
+}
+#outer-wrapper {
+font: normal normal 100% Verdana, Arial, Sans-serif;;
+}
+/* Header
+----------------------------------------------- */
+#header-wrapper {
+margin:0;
+padding: 0;
+background-color: #528bc5;
+text-align: left;
+}
+#header {
+margin: 0 2%;
+background-color: #336699;
+color: #ffffff;
+padding: 0;
+font: normal normal 210% Verdana, Arial, Sans-serif;;
+position: relative;
+}
+h1.title {
+padding-top: 38px;
+margin: 0 1% .1em;
+line-height: 1.2em;
+font-size: 100%;
+}
+h1.title a, h1.title a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+#header .description {
+display: block;
+margin: 0 1%;
+padding: 0 0 40px;
+line-height: 1.4em;
+font-size: 50%;
+}
+/* Content
+----------------------------------------------- */
+.clear {
+clear: both;
+}
+#content-wrapper {
+margin: 0 2%;
+padding: 0 0 15px;
+text-align: left;
+background-color: #ffffff;
+border: 1px solid #cccccc;
+border-top: 0;
+}
+#main-wrapper {
+margin-left: 1%;
+width: 68%;
+float: left;
+background-color: #ffffff;
+display: inline;       /* fix for doubling margin in IE */
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar-wrapper {
+margin-right: 1%;
+width: 29%;
+float: right;
+background-color: #ffffff;
+display: inline;       /* fix for doubling margin in IE */
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+/* Headings
+----------------------------------------------- */
+h2, h3 {
+margin: 0;
+}
+/* Posts
+----------------------------------------------- */
+.date-header {
+margin: 1.5em 0 0;
+font-weight: normal;
+color: #999999;
+font-size: 100%;
+}
+.post {
+margin: 0 0 1.5em;
+padding: 0.2em;
+padding-bottom: 0em;
+background-color: #efefef;
+border: 1px solid #cccccc;
+}
+.post-body {
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+}
+.post-title {
+margin: 0;
+padding: 0.5em;
+font-size: 125%;
+font-weight: bold;
+line-height: 1.1em;
+background-color: #b5d9ff;
+}
+.post-title a, .post-title a:visited, .post-title strong {
+text-decoration: none;
+color: #333333;
+font-weight: bold;
+}
+.post div {
+line-height: 1.3em;
+}
+.post-footer {
+margin-bottom: 2px;
+color: #333333;
+font-size: 87%;
+background-color: #CCC;
+border-top: 1px solid #ffffff;
+}
+.post-footer .span {
+margin-right: .3em;
+}
+.post img {
+padding: 4px;
+border: 1px solid #cccccc;
+}
+.post blockquote {
+margin: 1em 20px;
+}
+.post blockquote p {
+margin: .75em 0;
+}
+.post-ad{
+padding-bottom: 20px;
+}
+.post .post-comment-link:first-child {
+padding-left: 5px;
+}
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+margin: 1em 0;
+color: #999999;
+}
+#comments h4 strong {
+font-size: 110%;
+}
+#comments-block {
+margin: 1em 0 1.5em;
+line-height: 1.3em;
+}
+#comments-block dt {
+margin: .5em 0;
+}
+#comments-block dd {
+margin: .25em 0 0;
+}
+#comments-block dd.comment-footer {
+margin: -.25em 0 2em;
+line-height: 1.4em;
+font-size: 78%;
+}
+#comments-block dd p {
+margin: 0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar h2 {
+margin: 1.6em 0 .5em;
+padding: 4px 5px;
+background-color: #b5d9ff;
+font-size: 100%;
+color: #333333;
+}
+.sidebar ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.sidebar li {
+margin: 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: .5em;
+padding-left: 15px;
+text-indent: -15px;
+line-height: 1.5em;
+}
+.sidebar {
+color: #333333;
+line-height:1.3em;
+}
+.sidebar .widget {
+margin-bottom: 1em;
+}
+.sidebar .widget-content {
+margin: 0 5px;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #cccccc;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font-weight: bold;
+line-height: 1.6em;
+font-size: 78%;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+clear: both;
+text-align: center;
+color: #333333;
+}
+#footer .widget {
+margin:.5em;
+padding-top: 20px;
+font-size: 85%;
+line-height: 1.5em;
+text-align: left;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #header {
+width: 750px;
+}
+/* Label Cloud Styles
+----------------------------------------------- */
+#labelCloud {text-align:center;font-family:arial,sans-serif;}
+#labelCloud  .label-cloud li{display:inline;background-image:none !important;padding:0 5px;margin:0;vertical-align:baseline !important;border:0 !important;}
+#labelCloud ul{list-style-type:none;margin:0 auto;padding:0;}
+#labelCloud a img{border:0;display:inline;margin:0 0 0 3px;padding:0}
+#labelCloud a{text-decoration:none}
+#labelCloud a:hover{text-decoration:underline}
+#labelCloud li a{}
+#labelCloud .label-cloud {}
+#labelCloud .label-count {padding-left:0.2em;font-size:9px;color:#000}
+#labelCloud .label-cloud li:before{content:"" !important}
+
+--></style>
+<style type="text/css">div.jackbook_socialmark  ul { display: block;font-size:10px;height: 0px;
+
+list-style:none;
+
+padding: 0px 10px 15px 0px;
+
+margin: 0px 0px 0px 0px;
+
+}
+
+div.jackbook_socialmark ul li {
+
+display: inline;
+
+margin: 0px;
+
+padding: 0px 5px 0px 5px;
+
+}
+
+div.jackbook_socialmark ul li a {
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-weight: bold;
+
+margin: 0px;
+
+}.jackbook_socialmark .stumbleupon, .jackbook_socialmark  .delicious, .jackbook_socialmark .digg {
+
+padding-left: 20px;
+
+}
+
+.jackbook_socialmark .digg {
+
+background: url(http://fluidsolution.lifewg.googlepages.com/jackbook_digg.gif) no-repeat left;
+
+}
+
+.jackbook_socialmark .delicious {
+
+background: url(http://fluidsolution.lifewg.googlepages.com/jackbook_delicious.gif) no-repeat left;
+
+}
+
+.jackbook_socialmark .stumbleupon {
+
+background: url(http://fluidsolution.lifewg.googlepages.com/jackbook_stumbleupon.gif) no-repeat left;
+
+}
+
+</style>
+<script type="text/javascript">var a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script><script src="using-combobox-with-datatable-in-c_files/google_top_exp.js" type="text/javascript"></script><style>.gc-bubbleDefault{background-color:transparent !important;text-align:left;padding:0 !important;margin:0 !important;border:0 !important;table-layout:auto !important}.gc-reset{background-color:transparent !important;border:0 !important;padding:0 !important;margin:0 !important;text-align:left}.pls-bubbleTop{border-bottom:1px solid #ccc !important}.pls-topTail,.pls-vertShimLeft,.pls-contentLeft{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/border_3.gif) !important}.pls-topTail{background-repeat:repeat-x !important;background-position:bottom !important}.pls-vertShim{background-color:#fff !important;text-align:right}.pls-vertShimLeft{background-repeat:repeat-y !important;background-position:right !important;height:4px}.pls-vertShimRight{height:4px}.pls-confirm-container .pls-vertShim{background-color:#fff3c2 !important}.pls-contentWrap{background-color:#fff !important;position:relative !important;vertical-align:top}.pls-contentLeft{background-repeat:repeat-y;background-position:right;vertical-align:top}.pls-dropRight{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropR_3.png) !important;background-repeat:repeat-y !important;vertical-align:top}.pls-vert,.pls-tailleft,.pls-dropTR .pls-dropBR,.pls-dropBL,.pls-vert img{vertical-align:top}.pls-dropBottom{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropB_3.png) !important;background-repeat:repeat-x !important;width:100%;vertical-align:top}.pls-topLeft{background:inherit !important;text-align:right;vertical-align:bottom}.pls-topRight{background:inherit !important;text-align:left;vertical-align:bottom}.pls-bottomLeft{background:inherit !important;text-align:right}.pls-bottomRight{background:inherit !important;text-align:left;vertical-align:top}.pls-tailtop,.pls-tailright,.pls-tailbottom,.pls-tailleft{display:none;position:relative}.pls-tailbottom,.pls-tailtop,.pls-tailright,.pls-tailleft,.pls-dropTR,.pls-dropBR,.pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite_3.png) !important;background-repeat:no-repeat}.pls-tailbottom{background-position:-23px 0}.pls-confirm-container .pls-tailbottom{background-position:-23px -10px}.pls-tailtop{background-position:-19px -20px}.pls-tailright{background-position:0 0}.pls-tailleft{background-position:-10px 0}.pls-tailtop{vertical-align:top}.gc-bubbleDefault td{line-height:0;font-size:0}.pls-topLeft img,.pls-topRight img,.pls-tailbottom{vertical-align:bottom}.pls-bottomLeft img,.bubbleDropTR,.pls-dropBottomL img,.pls-dropBottom img,.pls-dropBottomR img,.pls-bottomLeft{vertical-align:top}.pls-dropTR{background-position:0 -22px}.pls-dropBR{background-position:0 -27px}.pls-dropBL{background-position:0 -16px}.pls-spacertop,.pls-spacerright,.pls-spacerbottom,.pls-spacerleft{position:static !important}.pls-spinner{bottom:0;position:absolute;left:0;margin:auto;right:0;top:0}</style><script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script></head>
+<body>
+<div class="navbar section" id="navbar"><div class="widget Navbar" id="Navbar1"><script gapi_processed="true" src="using-combobox-with-datatable-in-c_files/plusone.js" async="" type="text/javascript"></script><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"><iframe src="using-combobox-with-datatable-in-c_files/navbar.htm" name="navbar-iframe" id="navbar-iframe" vspace="0" tabindex="0" style="" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+<script gapi_processed="true" type="text/javascript" src="using-combobox-with-datatable-in-c_files/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("iframes-styles-bubble", function() {
+          if (window.iframes && iframes.open) {
+            iframes.open(
+                '//www.blogger.com/navbar.g?targetBlogID\0751009430530424913741\46blogName\75ITDevSpace+-+Development+Tips+%26+Tricks\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://www.itdevspace.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://www.itdevspace.com/\46targetPostID\075560961869641736734\46blogPostOrPageUrl\75http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html\46vt\0755467568162543079973',
+                {
+                  container: "navbar-iframe-container",
+                  id: "navbar-iframe"
+                },
+                {
+                });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id="outer-wrapper"><div id="wrap2">
+<!-- skip links for text browsers -->
+<span id="skiplinks" style="display:none;">
+<a href="#main">skip to main </a> |
+      <a href="#sidebar">skip to sidebar</a>
+</span>
+<div id="header-wrapper">
+<div class="header section" id="header"><div class="widget Header" id="Header1">
+<div id="header-inner">
+<div class="titlewrapper">
+<h1 class="title">
+<a href="http://www.itdevspace.com/">ITDevSpace - Development Tips &amp; Tricks</a>
+</h1>
+</div>
+<div class="descriptionwrapper">
+<p class="description"><span>Solutions to common programming problems in Java, C#, .Net, Python, SQL, Excel/VBA and other languages.</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id="content-wrapper">
+<div id="crosscol-wrapper" style="text-align:center">
+<div class="crosscol section" id="crosscol"></div>
+</div>
+<div id="main-wrapper">
+<div class="main section" id="main"><div class="widget Blog" id="Blog1">
+<div class="blog-posts hfeed">
+<!-- google_ad_section_start -->
+<h2 class="date-header">Wednesday, 18 March 2009</h2>
+<div class="post hentry uncustomized-post-template">
+<a name="560961869641736734"></a>
+<h3 class="post-title entry-title">
+<a href="http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html">Using ComboBox with DataTable in C#</a>
+</h3>
+<div class="post-header-line-1"></div>
+<div class="post-body entry-content">
+<p>Define the ComboBox with DataTable</p>  <pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px"><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px"><span style="color: #008000">//define DataTable</span>
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">DataTable dt = <span style="color: #0000ff">new</span> DataTable("<span style="color: #8b0000">dataTable</span>");
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">dt.Columns.Add("<span style="color: #8b0000">Id</span>", <span style="color: #0000ff">typeof</span>(<span style="color: #0000ff">int</span>));
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">dt.Columns.Add("<span style="color: #8b0000">Name</span>", <span style="color: #0000ff">typeof</span>(<span style="color: #0000ff">string</span>));
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px"></pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px"><span style="color: #008000">//add DataRow</span>
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">DataRow row = dt.NewRow();
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">row["<span style="color: #8b0000">Id</span>"] = 1;
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">row["<span style="color: #8b0000">Name</span>"] = "<span style="color: #8b0000">One</span>";
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">dt.Rows.Add(row);
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px"></pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px"><span style="color: #008000">//assign to ComboBox</span>
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">comboBox.DataSource = dt;
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">comboBox.DisplayMember = "<span style="color: #8b0000">Name</span>";
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">comboBox.ValueMember = "<span style="color: #8b0000">Id</span>";</pre></pre>
+
+<p>Get Selected data from ComboBox</p>
+
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px"><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px">DataRow row = ((DataTable)comboBox.DataSource).Rows[comboBox.SelectedIndex];
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px"><span style="color: #0000ff">int</span> Id = (<span style="color: #0000ff">int</span>)row["<span style="color: #8b0000">Id</span>"];
+</pre><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,'Courier New',courier,monospace; font-size: 12px"><span style="color: #0000ff">string</span> Name = (<span style="color: #0000ff">string</span>)row["<span style="color: #8b0000">Name</span>"];</pre></pre>  
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+<span class="post-author vcard">
+</span>
+<span class="post-timestamp">
+</span>
+<span class="reaction-buttons">
+</span>
+<span class="star-ratings">
+</span>
+<span class="post-backlinks post-comment-link">
+</span>
+<div class="post-share-buttons goog-inline-block">
+<a class="goog-inline-block share-button sb-email" href="http://www.blogger.com/share-post.g?blogID=1009430530424913741&amp;postID=560961869641736734&amp;target=email" target="_blank" title="Email This"><span class="share-button-link-text">Email This</span></a><a class="goog-inline-block share-button sb-blog" href="http://www.blogger.com/share-post.g?blogID=1009430530424913741&amp;postID=560961869641736734&amp;target=blog" onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target="_blank" title="BlogThis!"><span class="share-button-link-text">BlogThis!</span></a><a class="goog-inline-block share-button sb-twitter" href="http://www.blogger.com/share-post.g?blogID=1009430530424913741&amp;postID=560961869641736734&amp;target=twitter" target="_blank" title="Share to Twitter"><span class="share-button-link-text">Share to Twitter</span></a><a class="goog-inline-block share-button sb-facebook" href="http://www.blogger.com/share-post.g?blogID=1009430530424913741&amp;postID=560961869641736734&amp;target=facebook" onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target="_blank" title="Share to Facebook"><span class="share-button-link-text">Share to Facebook</span></a><div class="goog-inline-block dummy-container"><div id="___plusone_0" style="height: 20px; width: 300px; display: inline-block; text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline;"><iframe title="+1" allowtransparency="true" src="using-combobox-with-datatable-in-c_files/fastbutton.htm" name="I0_1355732021698" id="I0_1355732021698" vspace="0" tabindex="0" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div></div>
+</div>
+<span class="post-icons">
+<span class="item-control blog-admin pid-1096380812">
+<a href="http://www.blogger.com/post-edit.g?blogID=1009430530424913741&amp;postID=560961869641736734&amp;from=pencil" title="Edit Post">
+<img alt="" class="icon-action" src="using-combobox-with-datatable-in-c_files/icon18_edit_allbkg.gif" height="18" width="18">
+</a>
+</span>
+</span>
+</div>
+<div class="jackbook_socialmark">
+<ul>
+<li><a class="digg" href="http://digg.com/submit?phase=2&amp;url=http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html&amp;title=Using%20ComboBox%20with%20DataTable%20in%20C#&amp;bodytext=&amp;topic=" target="_blank" title="Digg this">Digg this</a></li>
+<li><a class="delicious" href="http://del.icio.us/post?v=4&amp;url=http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html&amp;title=Using%20ComboBox%20with%20DataTable%20in%20C#" target="_blank" title="Add to del.icio.us">Add to del.icio.us</a></li>
+<li><a class="stumbleupon" href="http://www.stumbleupon.com/submit&amp;url=http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html&amp;title=Using%20ComboBox%20with%20DataTable%20in%20C#" target="_blank" title="Stumble It!">Stumble It!</a></li>
+</ul>
+</div>
+<div class="post-footer-line post-footer-line-2">
+<span class="post-comment-link">
+</span>
+<span class="post-labels">
+Labels:
+<a href="http://www.itdevspace.com/search/label/c%23" rel="tag">c#</a>
+</span>
+</div>
+<div class="post-footer-line post-footer-line-3">
+<span class="post-location">
+</span>
+</div>
+</div>
+</div>
+<div class="comments" id="comments">
+<a name="comments"></a>
+<h4>No comments:</h4>
+<div id="Blog1_comments-block-wrapper">
+<dl class="avatar-comment-indent" id="comments-block">
+</dl>
+</div>
+<p class="comment-footer">
+</p><div class="comment-form">
+<a name="comment-form"></a>
+<h4 id="comment-post-message">Post a Comment</h4>
+<p>
+</p>
+<a href="http://www.blogger.com/comment-iframe.g?blogID=1009430530424913741&amp;postID=560961869641736734&amp;blogspotRpcToken=1569539" id="comment-editor-src"></a>
+<iframe allowtransparency="true" class="blogger-iframe-colorize blogger-comment-from-post" id="comment-editor" name="comment-editor" src="using-combobox-with-datatable-in-c_files/comment-iframe.htm" frameborder="0" height="231px" width="100%"></iframe>
+<script type="text/javascript" src="using-combobox-with-datatable-in-c_files/124404617-comment_from_post_iframe.js"></script>
+<script type="text/javascript">
+      BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html', '14733990993053957696');
+    </script>
+</div>
+<p></p>
+<div id="backlinks-container">
+<div id="Blog1_backlinks-container">
+</div>
+</div>
+</div>
+<!-- google_ad_section_end -->
+<div class="post-ad"><script type="text/javascript"><!--
+google_ad_client="pub-5957770464397309";
+google_ad_host="pub-1556223355139109";
+google_ad_width=468;
+google_ad_height=60;
+google_ad_format="468x60_as";
+google_ad_type="text_image";
+google_ad_host_channel="0001";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="336699";
+google_color_url="999999";
+google_color_text="333333";
+//--></script>
+<script type="text/javascript" src="using-combobox-with-datatable-in-c_files/show_ads.js">
+</script>
+</div>
+<!-- google_ad_section_start -->
+<!-- google_ad_section_end -->
+</div>
+<div class="blog-pager" id="blog-pager">
+<span id="blog-pager-newer-link">
+<a class="blog-pager-newer-link" href="http://www.itdevspace.com/2009/03/readwrite-text-file-in-c.html" id="Blog1_blog-pager-newer-link" title="Newer Post">Newer Post</a>
+</span>
+<span id="blog-pager-older-link">
+<a class="blog-pager-older-link" href="http://www.itdevspace.com/2009/03/using-gridview-with-datatable-in-c.html" id="Blog1_blog-pager-older-link" title="Older Post">Older Post</a>
+</span>
+<a class="home-link" href="http://www.itdevspace.com/">Home</a>
+</div>
+<div class="clear"></div>
+<div class="post-feeds">
+<div class="feed-links">
+Subscribe to:
+<a class="feed-link" href="http://www.itdevspace.com/feeds/560961869641736734/comments/default" target="_blank" type="application/atom+xml">Post Comments (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en_GB'};window.___gapisync = false;(function() {var po = document.createElement('script');po.type = 'text/javascript';po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po, s);})();</script>
+</div></div>
+</div>
+<div id="sidebar-wrapper">
+<div class="sidebar section" id="sidebar"><div class="widget HTML" id="HTML1">
+<h2 class="title">Search ITDevSpace</h2>
+<div class="widget-content">
+<p align="left">
+</p><form id="searchthis" action="/search" style="display:inline;" method="get">
+<input id="b-query" maxlength="255" name="q" size="20" type="text">
+<input id="b-searchbtn" value="Search" type="submit">
+</form><p></p>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=HTML&amp;widgetId=HTML1&amp;action=editWidget&amp;sectionId=sidebar" onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target="configHTML1" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget HTML" id="HTML4">
+<div class="widget-content">
+<p><a href="http://feeds2.feedburner.com/Itdevspace" rel="alternate" type="application/rss+xml"><img alt="" style="vertical-align:middle;border:0" src="using-combobox-with-datatable-in-c_files/feed-icon16x16.png"></a>&nbsp;<a href="http://feeds2.feedburner.com/Itdevspace" rel="alternate" type="application/rss+xml">Subscribe to ITDevSpace</a></p>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=HTML&amp;widgetId=HTML4&amp;action=editWidget&amp;sectionId=sidebar" onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target="configHTML4" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget HTML" id="HTML5">
+<div class="widget-content">
+<script charset="utf-8" type="text/javascript" src="using-combobox-with-datatable-in-c_files/q"> </script> <noscript><a href="http://ws.amazon.co.uk/widgets/q?ServiceVersion=20070822&MarketPlace=GB&ID=V20070822%2FGB%2Fit0b2-21%2F8001%2F1d8dc2ac-8f48-426d-8bb3-ccd03ef0aa1d&Operation=NoScript">Amazon.co.uk Widgets</a></noscript>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=HTML&amp;widgetId=HTML5&amp;action=editWidget&amp;sectionId=sidebar" onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target="configHTML5" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget Label" id="Label1">
+<div class="widget-content">
+<div id="labelCloud"><ul class="label-cloud"><li style="font-size: 18px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/.net" style="color: rgb(43, 87, 131);" title="53 Posts in .net">.net</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/active%20directory" style="color: rgb(0, 0, 0);" title="1 Posts in active directory">active directory</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/addin" style="color: rgb(0, 0, 0);" title="1 Posts in addin">addin</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/ajax" style="color: rgb(0, 0, 0);" title="1 Posts in ajax">ajax</a></li> <li style="font-size: 13px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/asp.net" style="color: rgb(17, 35, 53);" title="5 Posts in asp.net">asp.net</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/autosys" style="color: rgb(0, 0, 0);" title="1 Posts in autosys">autosys</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/bcp" style="color: rgb(0, 0, 0);" title="1 Posts in bcp">bcp</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/bloomberg" style="color: rgb(0, 0, 0);" title="1 Posts in bloomberg">bloomberg</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/bunzip" style="color: rgb(0, 0, 0);" title="1 Posts in bunzip">bunzip</a></li> <li style="font-size: 20px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/c%23" style="color: rgb(50, 101, 153);" title="102 Posts in c#">c#</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/charts" style="color: rgb(0, 0, 0);" title="1 Posts in charts">charts</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/css" style="color: rgb(0, 0, 0);" title="1 Posts in css">css</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/csv" style="color: rgb(0, 0, 0);" title="1 Posts in csv">csv</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/dvcs" style="color: rgb(7, 15, 22);" title="2 Posts in dvcs">dvcs</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/dynamic" style="color: rgb(0, 0, 0);" title="1 Posts in dynamic">dynamic</a></li> <li style="font-size: 13px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/excel" style="color: rgb(17, 35, 53);" title="5 Posts in excel">excel</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/fiddler" style="color: rgb(0, 0, 0);" title="1 Posts in fiddler">fiddler</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/functional%20programming" style="color: rgb(12, 24, 36);" title="3 Posts in functional programming">functional programming</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/git" style="color: rgb(12, 24, 36);" title="3 Posts in git">git</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/graphics" style="color: rgb(7, 15, 22);" title="2 Posts in graphics">graphics</a></li> <li style="font-size: 14px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/gui" style="color: rgb(21, 42, 64);" title="7 Posts in gui">gui</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/gwt" style="color: rgb(7, 15, 22);" title="2 Posts in gwt">gwt</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/hg" style="color: rgb(12, 24, 36);" title="3 Posts in hg">hg</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/html" style="color: rgb(0, 0, 0);" title="1 Posts in html">html</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/interactive" style="color: rgb(0, 0, 0);" title="1 Posts in interactive">interactive</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/java" style="color: rgb(12, 24, 36);" title="3 Posts in java">java</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/json" style="color: rgb(7, 15, 22);" title="2 Posts in json">json</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/lift" style="color: rgb(0, 0, 0);" title="1 Posts in lift">lift</a></li> <li style="font-size: 13px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/linq" style="color: rgb(19, 39, 59);" title="6 Posts in linq">linq</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/linux" style="color: rgb(15, 30, 45);" title="4 Posts in linux">linux</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/log4net" style="color: rgb(15, 30, 45);" title="4 Posts in log4net">log4net</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/mef" style="color: rgb(0, 0, 0);" title="1 Posts in mef">mef</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/mercurial" style="color: rgb(12, 24, 36);" title="3 Posts in mercurial">mercurial</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/mobile" style="color: rgb(0, 0, 0);" title="1 Posts in mobile">mobile</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/mvc3" style="color: rgb(15, 30, 45);" title="4 Posts in mvc3">mvc3</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/mvc4" style="color: rgb(0, 0, 0);" title="1 Posts in mvc4">mvc4</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/nunit" style="color: rgb(0, 0, 0);" title="1 Posts in nunit">nunit</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/p2p" style="color: rgb(0, 0, 0);" title="1 Posts in p2p">p2p</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/parallel%20programming" style="color: rgb(12, 24, 36);" title="3 Posts in parallel programming">parallel programming</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/pivot" style="color: rgb(0, 0, 0);" title="1 Posts in pivot">pivot</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/play" style="color: rgb(0, 0, 0);" title="1 Posts in play">play</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/powertoys" style="color: rgb(0, 0, 0);" title="1 Posts in powertoys">powertoys</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/python" style="color: rgb(0, 0, 0);" title="1 Posts in python">python</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/razor" style="color: rgb(0, 0, 0);" title="1 Posts in razor">razor</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/regex" style="color: rgb(7, 15, 22);" title="2 Posts in regex">regex</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/restful" style="color: rgb(0, 0, 0);" title="1 Posts in restful">restful</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/roslyn" style="color: rgb(7, 15, 22);" title="2 Posts in roslyn">roslyn</a></li> <li style="font-size: 13px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/scala" style="color: rgb(17, 35, 53);" title="5 Posts in scala">scala</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/scripting" style="color: rgb(7, 15, 22);" title="2 Posts in scripting">scripting</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/serialization" style="color: rgb(0, 0, 0);" title="1 Posts in serialization">serialization</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/spring" style="color: rgb(7, 15, 22);" title="2 Posts in spring">spring</a></li> <li style="font-size: 18px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/sql" style="color: rgb(42, 84, 127);" title="47 Posts in sql">sql</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/sqlite" style="color: rgb(0, 0, 0);" title="1 Posts in sqlite">sqlite</a></li> <li style="font-size: 17px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/sqlserver" style="color: rgb(40, 80, 120);" title="38 Posts in sqlserver">sqlserver</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/subversion" style="color: rgb(0, 0, 0);" title="1 Posts in subversion">subversion</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/svn" style="color: rgb(0, 0, 0);" title="1 Posts in svn">svn</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/T4" style="color: rgb(0, 0, 0);" title="1 Posts in T4">T4</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/tar" style="color: rgb(0, 0, 0);" title="1 Posts in tar">tar</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/tibco" style="color: rgb(0, 0, 0);" title="1 Posts in tibco">tibco</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/tibrv" style="color: rgb(0, 0, 0);" title="1 Posts in tibrv">tibrv</a></li> <li style="font-size: 11px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/vba" style="color: rgb(7, 15, 22);" title="2 Posts in vba">vba</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/vi" style="color: rgb(0, 0, 0);" title="1 Posts in vi">vi</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/wcf" style="color: rgb(0, 0, 0);" title="1 Posts in wcf">wcf</a></li> <li style="font-size: 14px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/web" style="color: rgb(21, 42, 64);" title="7 Posts in web">web</a></li> <li style="font-size: 14px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/windows" style="color: rgb(25, 50, 76);" title="10 Posts in windows">windows</a></li> <li style="font-size: 14px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/winforms" style="color: rgb(21, 42, 64);" title="7 Posts in winforms">winforms</a></li> <li style="font-size: 15px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/wpf" style="color: rgb(26, 52, 79);" title="11 Posts in wpf">wpf</a></li> <li style="font-size: 12px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/xml" style="color: rgb(12, 24, 36);" title="3 Posts in xml">xml</a></li> <li style="font-size: 10px; line-height: 1;"><a href="http://www.itdevspace.com/search/label/xsd" style="color: rgb(0, 0, 0);" title="1 Posts in xsd">xsd</a></li> </ul></div>
+<script type="text/javascript">
+// Label Cloud User Variables
+var maxFontSize = 20;
+var maxColor = [51,102,153];
+var minFontSize = 10;
+var minColor = [0,0,0];
+var lcShowCount = false;
+var minPostCount = 0; //integer
+
+// Don't change anything past this point -----------------
+function s(a,b,i,x){
+     if(a>b){
+         var m=(a-b)/Math.log(x),v=a-Math.floor(Math.log(i)*m)
+            }
+     else{
+         var m=(b-a)/Math.log(x),v=Math.floor(Math.log(i)*m+a)
+         }
+     return v
+  }
+
+var ta=0;
+var c=[];
+var labelCount = new Array(); 
+var ts = new Object;
+
+if (53 > minPostCount) ts[".net"] = 53;
+
+if (1 > minPostCount) ts["active directory"] = 1;
+
+if (1 > minPostCount) ts["addin"] = 1;
+
+if (1 > minPostCount) ts["ajax"] = 1;
+
+if (5 > minPostCount) ts["asp.net"] = 5;
+
+if (1 > minPostCount) ts["autosys"] = 1;
+
+if (1 > minPostCount) ts["bcp"] = 1;
+
+if (1 > minPostCount) ts["bloomberg"] = 1;
+
+if (1 > minPostCount) ts["bunzip"] = 1;
+
+if (102 > minPostCount) ts["c#"] = 102;
+
+if (1 > minPostCount) ts["charts"] = 1;
+
+if (1 > minPostCount) ts["css"] = 1;
+
+if (1 > minPostCount) ts["csv"] = 1;
+
+if (2 > minPostCount) ts["dvcs"] = 2;
+
+if (1 > minPostCount) ts["dynamic"] = 1;
+
+if (5 > minPostCount) ts["excel"] = 5;
+
+if (1 > minPostCount) ts["fiddler"] = 1;
+
+if (3 > minPostCount) ts["functional programming"] = 3;
+
+if (3 > minPostCount) ts["git"] = 3;
+
+if (2 > minPostCount) ts["graphics"] = 2;
+
+if (7 > minPostCount) ts["gui"] = 7;
+
+if (2 > minPostCount) ts["gwt"] = 2;
+
+if (3 > minPostCount) ts["hg"] = 3;
+
+if (1 > minPostCount) ts["html"] = 1;
+
+if (1 > minPostCount) ts["interactive"] = 1;
+
+if (3 > minPostCount) ts["java"] = 3;
+
+if (2 > minPostCount) ts["json"] = 2;
+
+if (1 > minPostCount) ts["lift"] = 1;
+
+if (6 > minPostCount) ts["linq"] = 6;
+
+if (4 > minPostCount) ts["linux"] = 4;
+
+if (4 > minPostCount) ts["log4net"] = 4;
+
+if (1 > minPostCount) ts["mef"] = 1;
+
+if (3 > minPostCount) ts["mercurial"] = 3;
+
+if (1 > minPostCount) ts["mobile"] = 1;
+
+if (4 > minPostCount) ts["mvc3"] = 4;
+
+if (1 > minPostCount) ts["mvc4"] = 1;
+
+if (1 > minPostCount) ts["nunit"] = 1;
+
+if (1 > minPostCount) ts["p2p"] = 1;
+
+if (3 > minPostCount) ts["parallel programming"] = 3;
+
+if (1 > minPostCount) ts["pivot"] = 1;
+
+if (1 > minPostCount) ts["play"] = 1;
+
+if (1 > minPostCount) ts["powertoys"] = 1;
+
+if (1 > minPostCount) ts["python"] = 1;
+
+if (1 > minPostCount) ts["razor"] = 1;
+
+if (2 > minPostCount) ts["regex"] = 2;
+
+if (1 > minPostCount) ts["restful"] = 1;
+
+if (2 > minPostCount) ts["roslyn"] = 2;
+
+if (5 > minPostCount) ts["scala"] = 5;
+
+if (2 > minPostCount) ts["scripting"] = 2;
+
+if (1 > minPostCount) ts["serialization"] = 1;
+
+if (2 > minPostCount) ts["spring"] = 2;
+
+if (47 > minPostCount) ts["sql"] = 47;
+
+if (1 > minPostCount) ts["sqlite"] = 1;
+
+if (38 > minPostCount) ts["sqlserver"] = 38;
+
+if (1 > minPostCount) ts["subversion"] = 1;
+
+if (1 > minPostCount) ts["svn"] = 1;
+
+if (1 > minPostCount) ts["T4"] = 1;
+
+if (1 > minPostCount) ts["tar"] = 1;
+
+if (1 > minPostCount) ts["tibco"] = 1;
+
+if (1 > minPostCount) ts["tibrv"] = 1;
+
+if (2 > minPostCount) ts["vba"] = 2;
+
+if (1 > minPostCount) ts["vi"] = 1;
+
+if (1 > minPostCount) ts["wcf"] = 1;
+
+if (7 > minPostCount) ts["web"] = 7;
+
+if (10 > minPostCount) ts["windows"] = 10;
+
+if (7 > minPostCount) ts["winforms"] = 7;
+
+if (11 > minPostCount) ts["wpf"] = 11;
+
+if (3 > minPostCount) ts["xml"] = 3;
+
+if (1 > minPostCount) ts["xsd"] = 1;
+
+for (t in ts){
+    if (!labelCount[ts[t]]){
+          labelCount[ts[t]] = new Array(ts[t])
+          }
+       }
+tz = labelCount.length-1;
+lc2 = document.getElementById('labelCloud');
+lc2.innerHTML = '';
+ul = document.createElement('ul');
+ul.className = 'label-cloud';
+for(var t in ts){
+   for (var i=0;3 > i;i++) {
+            c[i]=s(minColor[i],maxColor[i],ts[t]-ta,tz)
+             }     
+        var fs = s(minFontSize,maxFontSize,ts[t]-ta,tz);
+        li = document.createElement('li');
+        li.style.fontSize = fs+'px';
+        li.style.lineHeight = '1';
+        a = document.createElement('a');
+        a.title = ts[t]+' Posts in '+t;
+        a.style.color = 'rgb('+c[0]+','+c[1]+','+c[2]+')';
+        a.href = '/search/label/'+encodeURIComponent(t);
+        if (lcShowCount){
+            span = document.createElement('span');
+            span.innerHTML = '('+ts[t]+') ';
+            span.className = 'label-count';
+            a.appendChild(document.createTextNode(t));
+            li.appendChild(a);
+            li.appendChild(span);
+            }
+         else {
+            a.appendChild(document.createTextNode(t));
+            li.appendChild(a);
+            }
+        ul.appendChild(li);
+        abnk = document.createTextNode(' ');
+        ul.appendChild(abnk);
+   }
+ lc2.appendChild(ul);   
+</script>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=Label&amp;widgetId=Label1&amp;action=editWidget&amp;sectionId=sidebar" onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target="configLabel1" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget HTML" id="HTML3">
+<div class="widget-content">
+<!-- Include the Google Friend Connect javascript library. -->
+<script type="text/javascript" src="using-combobox-with-datatable-in-c_files/friendconnect.js"></script>
+<!-- Define the div tag where the gadget will be inserted. -->
+<div class="gadgets-gadget-container" id="div-7640034269148580635" style="width: 336px; border: 1px solid rgb(204, 204, 204); visibility: visible;"><div style="height: 177px;" id="gfc_iframe_211705658_0_body"><iframe id="gfc_iframe_211705658_0" name="gfc_iframe_211705658_0" style="width: 100%; height: 177px;" allowtransparency="true" frameborder="0" scrolling="no"></iframe></div></div>
+<!-- Render the gadget into a div. -->
+<script type="text/javascript">
+var skin = {};
+skin['BORDER_COLOR'] = '#cccccc';
+skin['ENDCAP_BG_COLOR'] = '#e0ecff';
+skin['ENDCAP_TEXT_COLOR'] = '#333333';
+skin['ENDCAP_LINK_COLOR'] = '#0000cc';
+skin['ALTERNATE_BG_COLOR'] = '#ffffff';
+skin['CONTENT_BG_COLOR'] = '#ffffff';
+skin['CONTENT_LINK_COLOR'] = '#0000cc';
+skin['CONTENT_TEXT_COLOR'] = '#333333';
+skin['CONTENT_SECONDARY_LINK_COLOR'] = '#7777cc';
+skin['CONTENT_SECONDARY_TEXT_COLOR'] = '#666666';
+skin['CONTENT_HEADLINE_COLOR'] = '#333333';
+skin['NUMBER_ROWS'] = '4';
+google.friendconnect.container.setParentUrl('/' /* location of rpc_relay.html and canvas.html */);
+google.friendconnect.container.renderMembersGadget(
+ { id: 'div-7640034269148580635',
+   site: '14733990993053957696' },
+  skin);
+</script>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=HTML&amp;widgetId=HTML3&amp;action=editWidget&amp;sectionId=sidebar" onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target="configHTML3" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div><div class="widget AdSense" id="AdSense1">
+<div class="widget-content">
+<script type="text/javascript"><!--
+google_ad_client="pub-5957770464397309";
+google_ad_host="pub-1556223355139109";
+google_ad_host_channel="00000";
+google_ad_width=180;
+google_ad_height=150;
+google_ad_format="180x150_as";
+google_ad_type="text_image";
+google_color_border="FFFFFF";
+google_color_bg="FFFFFF";
+google_color_link="336699";
+google_color_url="336699";
+google_color_text="333333";
+//--></script>
+<script type="text/javascript" src="using-combobox-with-datatable-in-c_files/show_ads.js">
+</script>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=AdSense&amp;widgetId=AdSense1&amp;action=editWidget&amp;sectionId=sidebar" onclick='return _WidgetManager._PopupConfig(document.getElementById("AdSense1"));' target="configAdSense1" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget BlogArchive" id="BlogArchive2">
+<h2>Blog Archive</h2>
+<div class="widget-content">
+<div id="ArchiveList">
+<div id="BlogArchive2_ArchiveList">
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/search?updated-min=2012-01-01T00:00:00Z&amp;updated-max=2013-01-01T00:00:00Z&amp;max-results=47">2012</a>
+<span class="post-count" dir="ltr">(47)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_11_01_archive.html">November</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_10_01_archive.html">October</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_09_01_archive.html">September</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_08_01_archive.html">August</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_07_01_archive.html">July</a>
+<span class="post-count" dir="ltr">(8)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_06_01_archive.html">June</a>
+<span class="post-count" dir="ltr">(10)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_05_01_archive.html">May</a>
+<span class="post-count" dir="ltr">(5)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_04_01_archive.html">April</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_03_01_archive.html">March</a>
+<span class="post-count" dir="ltr">(4)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_02_01_archive.html">February</a>
+<span class="post-count" dir="ltr">(6)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2012_01_01_archive.html">January</a>
+<span class="post-count" dir="ltr">(4)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/search?updated-min=2011-01-01T00:00:00Z&amp;updated-max=2012-01-01T00:00:00Z&amp;max-results=35">2011</a>
+<span class="post-count" dir="ltr">(35)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_10_01_archive.html">October</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_09_01_archive.html">September</a>
+<span class="post-count" dir="ltr">(4)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_08_01_archive.html">August</a>
+<span class="post-count" dir="ltr">(6)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_07_01_archive.html">July</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_06_01_archive.html">June</a>
+<span class="post-count" dir="ltr">(7)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_05_01_archive.html">May</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_04_01_archive.html">April</a>
+<span class="post-count" dir="ltr">(5)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_03_01_archive.html">March</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_02_01_archive.html">February</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2011_01_01_archive.html">January</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/search?updated-min=2010-01-01T00:00:00Z&amp;updated-max=2011-01-01T00:00:00Z&amp;max-results=43">2010</a>
+<span class="post-count" dir="ltr">(43)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_12_01_archive.html">December</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_11_01_archive.html">November</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_09_01_archive.html">September</a>
+<span class="post-count" dir="ltr">(4)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_08_01_archive.html">August</a>
+<span class="post-count" dir="ltr">(9)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_07_01_archive.html">July</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_06_01_archive.html">June</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_03_01_archive.html">March</a>
+<span class="post-count" dir="ltr">(7)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_02_01_archive.html">February</a>
+<span class="post-count" dir="ltr">(6)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2010_01_01_archive.html">January</a>
+<span class="post-count" dir="ltr">(9)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/search?updated-min=2009-01-01T00:00:00Z&amp;updated-max=2010-01-01T00:00:00Z&amp;max-results=50">2009</a>
+<span class="post-count" dir="ltr">(112)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_12_01_archive.html">December</a>
+<span class="post-count" dir="ltr">(4)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_11_01_archive.html">November</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_10_01_archive.html">October</a>
+<span class="post-count" dir="ltr">(9)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_09_01_archive.html">September</a>
+<span class="post-count" dir="ltr">(7)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_08_01_archive.html">August</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_07_01_archive.html">July</a>
+<span class="post-count" dir="ltr">(6)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_06_01_archive.html">June</a>
+<span class="post-count" dir="ltr">(9)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_05_01_archive.html">May</a>
+<span class="post-count" dir="ltr">(4)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_04_01_archive.html">April</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">▼&nbsp;</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_03_01_archive.html">March</a>
+<span class="post-count" dir="ltr">(22)</span>
+<ul class="posts">
+<li><a href="http://www.itdevspace.com/2009/03/datatable-not-updating-when-clicked-on.html">DataTable not updating when clicked on CheckBox in...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/open-webpage-from-c-gui.html">Open webpage from C# GUI</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/windows-live-writer-and-code-snippet.html">Windows Live Writer and Code Snippet plugin - extr...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/transaction-management-in-sql-server.html">Transaction management in SQL Server 2005</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/sql-contraints-in-create-table.html">SQL Contraints in CREATE TABLE statement</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/define-custom-application-configuration.html">Define custom application configuration section in...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/readingwriting-c-application-settings.html">Reading/Writing C# Application Settings in runtime...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/readwrite-text-file-in-c.html">Read/Write text file in C#</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html">Using ComboBox with DataTable in C#</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/using-gridview-with-datatable-in-c.html">Using GridView with DataTable in C#</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/startstop-windows-service-from-c.html">Start/Stop windows service from C#</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/zipunzip-files-in-c.html">Zip/Unzip files in C#</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/how-to-quickly-compare-2-tables-in-sql.html">How to quickly compare 2 tables in SQL Server</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/list-viewtablestoredprocedure-details.html">List view/table/storedprocedure details including ...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/addremove-privilages-from-sql-server.html">Add/Remove privilages from Database</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/implementing-generic-method-in-c-to.html">Implementing Generic method in C# to print content...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/add-tostring-to-resharper-codegenerate.html">Add ToString() to Resharper Code/Generate menu</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/load-assembly-at-runtime-from-another.html">Load Assembly at runtime from another dll in C#</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/c-define-and-execute-spring-bean-from.html">C# Define and execute bean from the spring configu...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/execute-method-in-c-using-reflection.html">Execute method in C# using reflection</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/create-object-from-name-in-c-like.html">Create object from name in C# like class.forName i...</a></li>
+<li><a href="http://www.itdevspace.com/2009/03/create-windows-service-application-in-c.html">Create Windows Service application in C#</a></li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_02_01_archive.html">February</a>
+<span class="post-count" dir="ltr">(27)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2009_01_01_archive.html">January</a>
+<span class="post-count" dir="ltr">(19)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/search?updated-min=2008-01-01T00:00:00Z&amp;updated-max=2009-01-01T00:00:00Z&amp;max-results=18">2008</a>
+<span class="post-count" dir="ltr">(18)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+          ►&nbsp;
+        
+</span>
+</a>
+<a class="post-count-link" href="http://www.itdevspace.com/2008_12_01_archive.html">December</a>
+<span class="post-count" dir="ltr">(18)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=BlogArchive&amp;widgetId=BlogArchive2&amp;action=editWidget&amp;sectionId=sidebar" onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive2"));' target="configBlogArchive2" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class="clear">&nbsp;</div>
+</div>
+<!-- end content-wrapper -->
+<div id="footer-wrapper">
+<div class="footer section" id="footer"><div class="widget HTML" id="HTML2">
+<div class="widget-content">
+<div align="center"><iframe class="tsfwbyicoboayavllpen" border="0" marginwidth="0" src="using-combobox-with-datatable-in-c_files/cm.htm" style="border:none;" frameborder="0" height="90" scrolling="no" width="728"></iframe></div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="http://www.blogger.com/rearrange?blogID=1009430530424913741&amp;widgetType=HTML&amp;widgetId=HTML2&amp;action=editWidget&amp;sectionId=footer" onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target="configHTML2" title="Edit">
+<img alt="" src="using-combobox-with-datatable-in-c_files/icon18_wrench_allbkg.png" height="18" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<!-- Google Analytics START -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="comment-iframe_data/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6636499-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Google Analytics END -->
+<!-- Syntax Highlighter START -->
+<link href="using-combobox-with-datatable-in-c_files/SyntaxHighlighter.htm" rel="stylesheet" type="text/css">
+<script src="using-combobox-with-datatable-in-c_files/shCore.htm" type="text/javascript"></script>
+<script src="using-combobox-with-datatable-in-c_files/shBrushCpp.htm" type="text/javascript"></script>
+<script src="using-combobox-with-datatable-in-c_files/shBrushCSharp.htm" type="text/javascript"></script>
+<script src="using-combobox-with-datatable-in-c_files/shBrushCss.htm" type="text/javascript"></script>
+<script src="using-combobox-with-datatable-in-c_files/shBrushJava.htm" type="text/javascript"></script>
+<script src="using-combobox-with-datatable-in-c_files/shBrushJScript.htm" type="text/javascript"></script>
+<script src="using-combobox-with-datatable-in-c_files/shBrushSql.htm" type="text/javascript"></script>
+<script src="using-combobox-with-datatable-in-c_files/shBrushXml.htm" type="text/javascript"></script>
+<script class="javascript">
+//<![CDATA[
+  function FindTagsByName(container, name, Tag)
+  {
+      var elements = document.getElementsByTagName(Tag);
+      for (var i = 0; i < elements.length; i++)
+      {
+          if (elements[i].getAttribute("name") == name)
+          {
+              container.push(elements[i]);
+          }
+      }
+  }
+  var elements = [];
+  FindTagsByName(elements, "code", "pre");
+  FindTagsByName(elements, "code", "textarea");
+
+for(var i=0; i < elements.length; i++) {
+if(elements[i].nodeName.toUpperCase() == "TEXTAREA") {
+ var childNode = elements[i].childNodes[0];
+ var newNode = document.createTextNode(childNode.nodeValue.replace(/<br\s*\/?>/gi,'\n'));
+ elements[i].replaceChild(newNode, childNode);
+
+}
+else if(elements[i].nodeName.toUpperCase() == "PRE") {
+ brs = elements[i].getElementsByTagName("br");
+ for(var j = 0, brLength = brs.length; j < brLength; j++) {
+  var newNode = document.createTextNode("\n");
+  elements[i].replaceChild(newNode, brs[0]);
+ }
+}
+}
+//clipboard does not work well, no line breaks
+// dp.SyntaxHighlighter.ClipboardSwf =
+//"http://itdevspace.checkoutmypage.com/SyntaxHighlighter/Scripts/clipboard.swf";
+dp.SyntaxHighlighter.HighlightAll("code");
+//]]>
+</script>
+<!-- Syntax Highlighter END -->
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="using-combobox-with-datatable-in-c_files/3975021835-widgets.js"></script>
+<script type="text/javascript">
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '1009430530424913741';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d1009430530424913741','//www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html','1009430530424913741');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '1009430530424913741', 'bloggerUrl': 'http://www.blogger.com', 'title': 'ITDevSpace - Development Tips \46amp; Tricks', 'pageType': 'item', 'url': 'http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html', 'canonicalUrl': 'http://www.itdevspace.com/2009/03/using-combobox-with-datatable-in-c.html', 'canonicalHomepageUrl': 'http://www.itdevspace.com/', 'homepageUrl': 'http://www.itdevspace.com/', 'blogspotFaviconUrl': 'http://www.itdevspace.com/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': 'Using ComboBox with DataTable in C#', 'pageTitle': 'ITDevSpace - Development Tips \46amp; Tricks: Using ComboBox with DataTable in C#', 'encoding': 'UTF-8', 'locale': 'en-GB', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42ITDevSpace - Development Tips \46amp; Tricks - Atom\42 href\75\42http://www.itdevspace.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42ITDevSpace - Development Tips \46amp; Tricks - RSS\42 href\75\42http://www.itdevspace.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42ITDevSpace - Development Tips \46amp; Tricks - Atom\42 href\75\42http://www.blogger.com/feeds/1009430530424913741/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\0751009430530424913741\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42ITDevSpace - Development Tips \46amp; Tricks - Atom\42 href\75\42http://www.itdevspace.com/feeds/560961869641736734/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window,b\75\42jstiming\42,d\75\42tick\42;var e\75function(c){this.t\75{};this.tick\75function(c,p,h){h\75void 0!\75h?h:(new Date).getTime();this.t[c]\75[h,p]};this[d](\42start\42,null,c)},f\75new e;a.jstiming\75{Timer:e,load:f};if(a.performance\46\46a.performance.timing){var g\75a.performance.timing,j\75a[b].load,k\75g.navigationStart,l\75g.responseStart;0\74k\46\46l\76\75k\46\46(j[d](\42_wtsrt\42,void 0,k),j[d](\42wtsrt_\42,\42_wtsrt\42,l),j[d](\42tbsd_\42,\42wtsrt_\42))}\ntry{var m\75null;a.chrome\46\46a.chrome.csi\46\46(m\75Math.floor(a.chrome.csi().pageT),j\46\0460\74k\46\46(j[d](\42_tbnd\42,void 0,a.chrome.csi().startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));null\75\75m\46\46a.gtbExternal\46\46(m\75a.gtbExternal.pageT());null\75\75m\46\46a.external\46\46(m\75a.external.pageT,j\46\0460\74k\46\46(j[d](\42_tbnd\42,void 0,a.external.startE),j[d](\42tbnd_\42,\42_tbnd\42,k)));m\46\46(a[b].pt\75m)}catch(n){};a.tickAboveFold\75function(c){var i\0750;if(c.offsetParent){do i+\75c.offsetTop;while(c\75c.offsetParent)}c\75i;750\76\75c\46\46a[b].load[d](\42aft\42)};var q\75!1;function r(){q||(q\75!0,a[b].load[d](\42firstScrollTime\42))}a.addEventListener?a.addEventListener(\42scroll\42,r,!1):a.attachEvent(\42onscroll\42,r);\n })();\74/script\076', 'mobileHeadScript': '', 'adsenseClientId': 'pub-5957770464397309', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42//www.blogger.com/static/v1/jsbin/3596828972-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/20497177ec370ede', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js'}}, {'name': 'skin', 'data': {'vars': {'textColor': '#333333', 'linkColor': '#336699', 'borderColor': '#cccccc', 'headerTextColor': '#ffffff', 'mainBgColor': '#ffffff', 'sidebarTitleTextColor': '#333333', 'bgColor': '#efefef', 'headerCornersColor': '#528bc5', 'headerFont': 'normal normal 210% Verdana, Arial, Sans-serif;', 'sidebarTitleBgColor': '#b5d9ff', 'bodyFont': 'normal normal 100% Verdana, Arial, Sans-serif;', 'dateHeaderColor': '#999999', 'endSide': 'right', 'startSide': 'left', 'headerBgColor': '#336699'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'footer', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'sidebar', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AdSenseView', new _WidgetInfo('AdSense1', 'sidebar', null, document.getElementById('AdSense1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive2', 'sidebar', null, document.getElementById('BlogArchive2'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': '//www.blogger.com/static/v1/jsbin/3079319324-lbx_en-GB.js', 'lightboxCssUrl': '//www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'}, 'displayModeFull'));
+</script>
+
+</body></html>

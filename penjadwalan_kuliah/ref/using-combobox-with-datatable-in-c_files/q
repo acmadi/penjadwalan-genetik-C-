@@ -1,0 +1,67 @@
+
+
+
+
+                                var amzn_wdgt={"cols":1,"tag":"it0b2-21","width":"336","inner_bkgd_color":"#b3c1c8","serviceVersion":"20070822","head_text_color":"#eae493","marketPlace":"GB","show_image":true,"price_color":"#3f3c39","rows":2,"templateId":"8001","title":"I Recommend","height":null,"curve_corners":true,"items":[{"asin":"1430210788","comment":[""]},{"asin":"0141036257","comment":[""]},{"asin":"0349119856","comment":[""]},{"asin":"0091816971","comment":[""]},{"asin":"1591840562","comment":[""]},{"asin":"027373198X","comment":[""]},{"asin":"0141034599","comment":[""]},{"asin":"0470058269","comment":[""]}],"outer_bkgd_color":"#4a6676","show_review":true,"sort_order":"Random","displayTemplate":"6","show_price":false,"text_color":"#31658b"}
+        amzn_wdgt.ID = "V20070822/GB/it0b2-21/8001/1d8dc2ac-8f48-426d-8bb3-ccd03ef0aa1d";
+        amzn_wdgt.rt = "as_li_wdgt_ex";
+        if (typeof _amzn_utils_strs == "undefined") { _amzn_utils_strs = {}; }; _amzn_utils_strs.getStringForGB = function(key){
+ var obj = new Object();        obj.Book = '';
+        obj.Search = 'Search';
+        obj.Loading = 'Loading';
+        obj.LoyaltyPoints = '';
+        obj.GetEditWidgetShort = 'Get/Edit widget';
+        obj.Kindle = '';
+        obj.Unbox = '';
+        obj.GetEditWidgetLong = 'Get/Edit this widget';
+        obj.BestPrice = 'Best Price';
+        obj.Music = '';
+        obj.NoItemsWishlist = 'No items in the Wish List';
+        obj.MP3 = '';
+        obj.Buy = 'Buy';
+        obj.Download = 'Download';
+        obj.closeString = 'Close window';
+        obj.or = 'or';
+        obj.NoResultsFor = 'No results for';
+        obj.SortBy = 'Sort by';
+        obj.Now = '';
+        obj.GetWidgetLong = 'Get Widget';
+        obj.DVD = '';
+        obj.CustomerReviews = 'Reviews';
+        obj.PrivacyPolicy = 'Privacy';
+        obj.ErrorMessage = 'Could not connect to server. Please try later.';
+        obj.Price = 'Price';
+        obj.Searching = 'Searching';
+        obj.WatchNow = '';
+        obj.BuyNew = 'Buy New';
+        obj.Video = '';
+        obj.selectStore = 'Select an Amazon store';
+        obj.Amazon = 'Amazon';
+        obj.CampaignID = '2486';
+        obj.AssocImpVIP = 'www.assoc-amazon.co.uk';
+        obj.CompletionVIP = 'completion.amazon.co.uk/search/complete';
+        obj.issMktid = '3';
+        obj.AmazonCom = 'Amazon.co.uk';
+        obj.AmazonComLink = 'http://www.amazon.co.uk/';
+        obj.PrivacyPolicyLink = 'http://rcm-uk.amazon.co.uk/e/cm/privacy-policy.html?o=2';
+        obj.DefaultTag = 'amawid-21';
+        obj.WebsiteRefTag = 'assoc_wdgt_gb';
+        obj.WSUrl = 'http://ws.amazon.co.uk/widgets';
+        obj.WMSUrl = 'http://wms.assoc-amazon.co.uk';
+        obj.WebsiteUrl = 'http://widgets.amazon.co.uk/';
+        obj.PrivacyPolicyLinkLength = '7';
+        obj.AmazonComLogoLength = '84';
+        obj.GetLinkButtonLength = '82';
+        obj.GetLinkDarkButtonLength = '70';
+        obj.GetLinkLength = '10';
+        obj.PrivacyAmazonComPermissableLength = '128';
+        obj.PrivacyGetLinkPermissableLength = '120';
+        obj.PrivacyGetLinkButtonPermissableLength = '125';
+        obj.LetterToPixelRatio = '6';
+if(obj[key]){ 
+return  obj[key]; }else { return 'Unknown string';
+    }
+}
+
+        document.write('<script charset="utf-8" type="text/javascript" src="http://wms.assoc-amazon.co.uk/20070822/GB/js/8001_6.js"> </script>');
+    
